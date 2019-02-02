@@ -1,3 +1,4 @@
+
 Hyperlinks
 ----------
 
@@ -53,20 +54,23 @@ anchor tag element. I have added a short description of what the anchor
 tag does as a paragraph and then we will add a link using the word
 anchor tag:
 
-*\<**h2**\>Anchor tag\</**h2**\>*
-
-*\<**p**\>In computing, a hyperlink is a reference to data that the
-reader can directly follow either by clicking. A hyperlink points to a
-whole document or to a specific element within a document. Hypertext is
-text with hyperlinks. \<**a**
-href=\"https://en.wikipedia.org/wiki/Hyperlink\"\>An anchor
-tag\</**a**\> is used to link web pages\</**p**\>*
-
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8" /> 
+    <title>My First Web Page</title> 
+  </head> 
+  <body> 
+    <h2>Anchor tag</h2>
+<p>In computing, a hyperlink is a reference to data that the reader can directly follow either by clicking. A hyperlink points to a whole document or to a specific element within a document. Hypertext is text with hyperlinks. <a href="https://en.wikipedia.org/wiki/Hyperlink">An anchor tag</a> is used to link web pages</p>
+  </body> 
+</html>
+```
 Make sure to add the above HTML content in your HTML file or open the
 *9\_hyperlinks.html* file from the exercise files:
 
-![](./images/media/image15.jpg){width="3.6123239282589674in"
-height="2.1008059930008747in"}
+![](./images/media/image15.jpg)
 
 Linking to another region within the same page 
 -----------------------------------------------
@@ -80,8 +84,7 @@ process for linking to external pages. I have a page with some dummy
 text separated into three sections. If you open the file
 *9a\_hyperlinks.html*:
 
-![](./images/media/image16.jpg){width="3.875in"
-height="3.3595778652668415in"}
+![](./images/media/image16.jpg)
 
 I have created three paragraphs that will act as the link for each
 section, so next we will create a link to section 1, 2 and 3. In order
@@ -92,9 +95,9 @@ create a link for. So, in the HTML for the web page, scroll to the first
 anchor text for the first section and add an *id* attribute with the
 value one:
 
-*\<**h2** id=\"one\"\>Section 1\</**h2**\>*
+`<h2 id="one">Section 1</h2>`
 
-We have added an *id* attribute with a value of *one*. We will look at
+We have added an `id` attribute with a value of *one*. We will look at
 IDs in more detail later on, but essentially, ID's are unique attributes
 that you can assign to elements. This means that if you give an element
 an ID, that will be unique to that element only. In this case, we have
@@ -107,30 +110,29 @@ each section. To do that, just scroll to where it says *Link to section
 only this time we will precede the link with a pound or hash symbol as
 follows:
 
-*\<**p**\>\<**a** href=\"\#one\"\>Link to section 1\</**a**\>\</**p**\>*
+`<p><a href="#one">Link to section 1</a></p>`
 
 We can repeat this two-step process to create links for the two other
-sections on the page. Create an ID attribute for each h2 title heading
+sections on the page. Create an ID attribute for each `<h2>` title heading
 with values of two and three respectively:
 
-*\<**h2** id=\"two\"\>Section 2\</**h2**\>*
-
-*\<**h2** id=\"three\"\>Section 3\</**h2**\>*
+```html
+<h2 id="two">Section 2</h2>
+<h2 id="three">Section 3</h2>
+```
 
 Then use the unique IDs to create links on the two remaining paragraphs
 that act as the text, which will become links:
 
-*\<**p**\>\<**a** href=\"\#one\"\>Link to Section 1\</**a**\>\</**p**\>*
-
-*\<**p**\>\<**a** href=\"\#two\"\>Link to Section 2\</**a**\>\</**p**\>*
-
-*\<**p**\>\<**a** href=\"\#three\"\>Link to Section
-3\</**a**\>\</**p**\>*
+```html
+<p><a href="#one">Link to Section 1</a></p>
+<p><a href="#two">Link to Section 2</a></p>
+<p><a href="#three">Link to Section 3</a></p>
+```
 
 Let's save the changes and switch to the browser to see the results:
 
-![](./images/media/image17.jpg){width="4.35378280839895in"
-height="2.2419356955380576in"}
+![](./images/media/image17.jpg)
 
 As you can see from the screenshot above, all the paragraph texts have
 now become links to each respective section. Clicking on each link will
@@ -140,9 +142,9 @@ take you to that section further down the page.
 
 The two most common types of links are links to other pages on the same
 website, and links to external resources on other websites on the web.
-Both of these types of links use the ***a*** tag to create the link
+Both of these types of links use the `<a>` tag to create the link
 between the web pages, and the only difference is how you link to them
-using the *href* attribute values, which are also known as paths.
+using the `href` attribute values, which are also known as paths.
 
 When linking to another page on the same website, you will use a
 relative path. This means that the URL or path does not include the
@@ -150,22 +152,21 @@ domain. For example, if you want to link to the about page on your site
 and it happens to be called [www.mysite.com](http://www.mysite.com),
 then you wouldn't include the domain name as in:
 [www.mysite.com/about](http://www.mysite.com/about). Instead, your
-*href* attribute would have a value of just the name of the page so it
-would be: *\<**a*** *href* =''*about.html"\>About Us\</**a**\>*, because
+`href` attribute would have a value of just the name of the page so it
+would be: `<a href =’’about.html”>About Us</a>`, because
 the link is pointing to another page on the same website which you are
-already on. So, there is no need to give the full *URL* address to get
+already on. So, there is no need to give the full URL address to get
 to the page you are just accessing another page on the same website.
 
 Also, the about page could be inside another directory called pages, for
-example. This will also be reflected in the href value: *\<**a** href*
-*="pages/about.html"\>About Us\</**a**\>*.
+example. This will also be reflected in the href value: `<a href =”pages/about.html”>About Us</a>`.
 
 If the page you are linking to is on an external location, then you will
-need to use an absolute path. In this instance, the *href* attribute
+need to use an absolute path. In this instance, the `href` attribute
 value must include the full domain. For example, if I want to link to
 the about page of Facebook, the path would include the full domain plus
 the name of the about page, which they have just called facebook:
-*<http://www.facebook.com/facebook>. *
+`<http://www.facebook.com/facebook>`.
 
 ### Opening links in a new window
 
@@ -179,8 +180,7 @@ with the value of blank. So, if we wanted to open the about page of
 Facebook in a new window or tab, we would just add the target attribute
 with a value of underscore followed by the word blank:
 
-*\<**a** href* *="http://www.facebook.com/facebook"
-target="\_blank\>About Us\</**a**\>*
+`<a href =”http://www.facebook.com/facebook” target=”_blank>About Us</a>`
 
-The *target* attribute determines exactly where the link will be
-displayed, and the *\_blank* value specifies a new window.
+The `target` attribute determines exactly where the link will be
+displayed, and the `_blank` value specifies a new window.
