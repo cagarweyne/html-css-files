@@ -98,22 +98,20 @@ title tag, and this just closes the corresponding tag that was opened. 
 Body Tag 
 ---------
 
-The next element in the document is the *\<**body**\>* element, and
+The next element in the document is the `<body>` element, and
 inside this tag is where the main content of the document will actually
 be viewable to the user when the file is opened in a browser. Most of
-the markup tags will actually go inside the ***body*** element. There
-are two elements inside the main ***body*** element, ***h1,*** which
-specifies the type of heading -- much like the heading 1 selection from
-a Word document, and the ***p*** element that signifies the beginning of
+the markup tags will actually go inside the `<body>` element. There
+are two elements inside the main `<body>` element, `<h1>`, which
+specifies the type of heading much like the heading 1 selection from
+a Word document, and the `<p>` element that signifies the beginning of
 a paragraph.
 
-You could simply just write your text out inside the ***body*** element,
+You could simply just write your text out inside the `<body>` element,
 but to follow good semantics and to make it easier to style different
 elements, it is best practice to wrap all paragraph text inside
-a ***p*** element. Finally, the ***body*** and ***html*** elements are
+a `<p>` element. Finally, the `<body>` and `<html>` elements are
 closed off with closing tags.  
-
-           
 
 Save as a HTML document
 -----------------------
@@ -121,13 +119,12 @@ Save as a HTML document
 Now that we have coded our first web page, we can save this as an HTML
 file. First, make sure that you save the file with an appropriate name.
 I'm saving mine as *first-web-page.html*. Please note it is important to
-save your file with an **.***html* file extension, otherwise you won't
+save your file with an .html file extension, otherwise you won't
 be able to open the file as a web page in your browser. Once you have
 saved the file, just navigate to its location in your computer and
-double click it to open -- it should open in your default browser:
+double click it to open it should open in your default browser:
 
-![](./images/media/image4.jpg){width="4.5in"
-height="2.3215660542432195in"}
+![](./images/media/image4.jpg)
 
 While it may not look exciting, you have just created your first web
 page! HTML is the building blocks of all websites on the web, and
@@ -177,9 +174,6 @@ hold down the Ctrl key and then press the forward slash key, and the
 editor will automatically make the highlighted text a comment for you.
 This works in Atom, Sublime, and pretty much most code editors.
 
-**\
-**
-
 Headings 
 ---------
 
@@ -215,10 +209,9 @@ from others. However, what you should see is that content of the h1
 should be the largest of the six and as the level goes up, the size of
 the contents should decrease in size:
 
-![](./images/media/image6.jpg){width="4.171692913385827in"
-height="2.5in"}
+![](./images/media/image6.jpg)
 
- Paragraphs
+Paragraphs
 ----------
 
 Paragraphs are one of the most basic tags that you will use in HTML. The
@@ -246,8 +239,7 @@ HTML plays an important part in web documents along with      Cascading Style Sh
 
 However, when you view this in the browser, it is formatted differently:
 
-![](./images/media/image7.jpg){width="5.763888888888889in"
-height="1.2944444444444445in"}
+![](./images/media/image7.jpg)
 
 The browser has clumped together the two paragraphs into one, so the
 visual structure that we see in the code is not what is reflected in the
@@ -304,10 +296,6 @@ achieve this. Notice that the *\<**br**/\>* tag is self-closing just
 like the meta tag we saw previously. Let's place a line break after the
 first word in our first paragraph:
 
-*\<**p**\>HTML \<**br** /\> is the building blocks of web pages*
-
-*It specifies the structure of documents.\</**p**\>*
-
 ```html
 <!DOCTYPE html> 
 <html lang="en"> 
@@ -319,7 +307,7 @@ first word in our first paragraph:
     <h1>Understanding HTML</h1>
 
     <p>HTML <br /> is the building blocks of web pages
-    It specifies the structure of documents.</p> 
+    it specifies the structure of documents.</p> 
 
 <p>HTML plays an important part in web documents along with Cascading Style Sheets.</p> 
 	    
@@ -342,20 +330,29 @@ print and on web documents. In HTML, you can use the *\<**hr /**\>* tag
 to add a simple horizontal line in your web page. Let's add a line
 between the two paragraphs that we currently have:
 
-*\<**p**\>HTML is the building blocks of web pages*
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8" /> 
+    <title>Hello World</title> 
+  </head> 
+  <body> 
+    <h1>Understanding HTML</h1>
 
-*It specifies the structure of documents.\</**p**\> *
-
-*\<**hr /**\>*
-
-*\<**p**\>HTML plays an important part in web documents along with
-Cascading Style Sheets.\</**p**\>*
+    <p>HTML <br /> is the building blocks of web pages
+    it specifies the structure of documents.</p> 
+    <hr />		
+<p>HTML plays an important part in web documents along with Cascading Style Sheets.</p> 
+	    
+  </body> 
+</html>
+```
 
 Now, let's save this change in our text editor then switch over to the
 browser and see the result:
 
-![](./images/media/image10.jpg){width="5.210725065616798in"
-height="2.1169356955380576in"}
+![](./images/media/image10.jpg)
 
 A solid horizontal line has now been added to the web page between the
 two paragraphs. You can use this tag to separate different areas of the
@@ -375,46 +372,39 @@ that are used to format text. Let's say that we want to make the words
 or strong, we will discuss the difference soon -- let's first make the
 words bold using the *\<**b**\>* tag:
 
-*\<**p**\>HTML is the building blocks of web pages*
 
-*It specifies the structure of documents.\</**p**\> *
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8" /> 
+    <title>Hello World</title> 
+  </head> 
+  <body> 
+    <h1>Understanding HTML</h1>
 
-*\<**hr /**\>*
+    <p>HTML <br /> is the building blocks of web pages
+    it specifies the structure of documents.</p> 
+    <hr />		
+<p>HTML plays an important part in web documents along with Cascading Style Sheets.</p>
+	  <h2>The Bold Tag</h2>
 
-*\<**p**\>HTML plays an important part in web documents along with
-Cascading Style Sheets.\</**p**\>*
+<p>The bold tag (⟨b⟩) <b>represents</b> a span of text that you wish to highlight from the rest of the text without inferring any type of special relevance or meaning. As you would expect, browsers typically bold this text.</p>
 
-*\<**h2**\>The Bold Tag\</**h2**\>*
+<h2>The Strong Tag</h2>
 
-> *\<**p**\>The bold tag (⟨b⟩) \<**b**\>represents\</**b**\> a span of
-> text that you wish to highlight from the rest of the text without
-> inferring any type of special relevance or meaning. As you would
-> expect, browsers typically bold this text.\</**p**\>*
+<p>By using the strong tag (⟨strong⟩) <b>represents</b> a string of text as having strong importance. The text should be considered to be more important than the text surrounding it. This is displayed as bold, just like the using the bold tag.</p>
 
-*\<**h2**\>The Strong Tag\</**h2**\>*
+<h2>The Italic Tag</h2>
 
-> *\<**p**\>By using the strong tag (⟨strong⟩)
-> \<**b**\>represents\</**b**\> a string of text as having strong
-> importance. The text should be considered to be more important than
-> the text surrounding it. This is displayed as bold, just like the
-> using the bold tag.\</**p**\>*
+<p>Like the bold tag, the italic tag (⟨i⟩) <b>represents</b> a string of text that is highlighted from the text around it. No particular meaning is attached to the text when you use the (⟨i⟩) tag, it is just rendered in italics. Helpful for phrases, terms, or any text that is normally displayed in italics.</p>
 
-*\<**h2**\>The Italic Tag\</**h2**\>*
+<h2>The Emphasis Tag</h2>
 
-> *\<**p**\>Like the bold tag, the italic tag (⟨i⟩)
-> \<**b**\>represents\</**b**\> a string of text that is highlighted
-> from the text around it. No particular meaning is attached to the text
-> when you use the (⟨i⟩) tag, it is just rendered in italics. Helpful
-> for phrases, terms, or any text that is normally displayed in
-> italics.\</**p**\>*
-
-*\<**h2**\>The Emphasis Tag\</**h2**\>*
-
-> *\<**p**\>The \<**b**\>emphasis\</**b**\> tag (⟨em⟩), or \"em\" tag,
-> denotes text that is emphasized more than the text around it. Although
-> this tag is usually rendered in italics, it shouldn\'t be used in
-> place of the italics tag, rather it should be used for text that needs
-> to be emphasized for some reason.\</**p**\>*
+<p>The <b>emphasis</b> tag (⟨em⟩), or "em" tag, denotes text that is emphasized more than the text around it. Although this tag is usually rendered in italics, it shouldn't be used in place of the italics tag, rather it should be used for text that needs to be emphasized for some reason.</p>	    
+  </body> 
+</html>
+```
 
 Save the changes and switch to your browser then refresh to see the
 results:
