@@ -22,7 +22,7 @@ each line in detail.
 </html>
 ```
 
-The first line *\<**!DOCTYPE html**\>* informs the browser
+The first line `<!DOCTYPE html>` informs the browser
 about the type of HTML version that is being used and is called the
 document type declaration. This simple statement means that HTML5 is the
 version of the markup that will be used for the rest of this
@@ -32,16 +32,16 @@ the file before writing any HTML markup. 
 HTML Tag
 --------
 
-The next piece of HTML code is the *\<**html** lang=\"en\"\> *and
+The next piece of HTML code is the `<html lang="en">` and
 this signifies the beginning of the document. As you will soon see, most
 elements come in pairs.
 
-The *\<**html**\>* element comes in a pair and encapsulates all the
+The `<html>` element comes in a pair and encapsulates all the
 other elements. The pairs of elements have an opening, and this element
-is closed right at the end of the document with *\</**html**\>*.  The
-opening *\<**html**\>* element has an attribute that specifies the
+is closed right at the end of the document with `</html>`. The
+opening `<html>` element has an attribute that specifies the
 language of the document; in our case we are setting the language as
-English with *en*.
+English with `en`.
 
 This is not something that you have to do to every single HTML document,
 but it is one of those things that strictly specify which language will
@@ -51,27 +51,22 @@ so that they know which language they\'re dealing with.  You can find
 all the ISO language codes here:
 <http://www.html.am/reference/iso-language-codes.cfm>. 
 
- 
-
-**\
-**
-
 Head Tag
 --------
 
-The next element is the *\<**head**\>,* which is inside *\<**html**\>*.
+The next element is the `<head>`, which is inside `<html>`.
 This is a required tag that should only be used once on the web page.
 The elements that reside inside the head tag aren't displayed on the web
 pages and are hidden from visitors. 
 
-Inside this element, you can place metadata -- this is accompanying
-information about the page. In our web page, the *\<**meta**\>* element
+Inside this element, you can place metadata, this is accompanying
+information about the page. In our web page, the `<meta>` element
 has an attribute called charset that is set to utf-8. 
 
 This simply specifies the character encoding for the HTML document. This
 is something you should do for each of your HTML documents. You always
 want to set the character encoding, and unless you\'re going to be using
-Russian, Japanese, and the Persian alphabet, or other types of
+Arabic, Japanese, and the Persian alphabet, or other types of
 characters, you\'re probably going to use utf-8. What this does is
 inform the browser which encoding to use - that way, it\'s going to use
 the proper characters when rendering content to the page. You also want
@@ -81,11 +76,9 @@ so it\'s immediately set.
 Meta tags don't actually do anything to the content that is presented in
 the browser window, but they are used by the likes of search engines to
 catalogue information about the web page. You will notice that the
-*\<**meta**\>* tag doesn't have a corresponding closing tag. In HTML
-there are some tags that are self-closing, and the *\<**meta**\>* tag is
+`<meta>` tag doesn't have a corresponding closing tag. In HTML
+there are some tags that are self-closing, and the `<meta>`* tag is
 one of them.
-
-  
 
 Title Tag
 ---------
