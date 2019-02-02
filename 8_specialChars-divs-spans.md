@@ -18,12 +18,10 @@ have noticed in our code for the form when we created the label for the
 radio button that we used an encoding to display the ampersand: *&amp;*.
 If you simply type out the ampersand as you would in a word processor,
 some browsers will display a weird looking character. Likewise, if you
-want to display the @ or copyright symbols, you would use *&commat;* and
-*&copy;* respectively. For a full list of how to encode special
+want to display the @ or copyright symbols, you would use `&commat;` and
+`&copy;` respectively. For a full list of how to encode special
 characters in HTML, visit <http://goo.gl/TDBevm>
 
-**\
-**
 
 IDs & Classes 
 --------------
@@ -71,21 +69,21 @@ elements. Let's say that we want to add a class to the *\</**h1**\>* tag
 in our form page. We simply add the word class as an attribute and the
 value is whatever name we want to use for the class:
 
-*\<**h1** class=\"heading-one\"\>Sign Up Form\</**h1**\>*
+`<h1 class="heading-one">Sign Up Form</h1>`
 
 You can use whatever name you would like as the class name. The class
 name must be between either single or double quotes, and there must be
 no space between multiple words. If you add a space between multiple
 words, each instance of the word on its own will be a class. You can
 distinguish multiple words by using either a hyphen, camel case, (this
-is making each subsequent word's first letter upper case -- e.g.
-*headingOne)*, or use an underscore character: *heading\_one*.
+is making each subsequent word's first letter upper case -e.g.
+headingOne), or use an underscore character: heading_one.
 
 If you want to apply additional styling that is unique to an element
 that shares styling with several other elements, you can do so by adding
 additional classes with a space:
 
-*\<**h1** class=\"heading-one another-class \"\>Sign Up Form\</**h1**\>*
+`<h1 class="heading-one another-class ">Sign Up Form</h1>`
 
 The heading element now has two classes and you can add additional
 styling using the second class that will only be applied to this h1 tag
@@ -112,11 +110,11 @@ few classes and the element tags.
 Span & Div 
 -----------
 
-As we have already seen with the *\<**em**\>* and *\<**strong**\>*
+As we have already seen with the `<em>` and `<strong>`
 elements, you can add semantics, which is just a fancy word for giving
 content on the page meaning and structure, within HTML. However, there
 are two elements that are widely used but don't actually hold any
-semantic value, these are the division \<div\> and *\<**span**\>*
+semantic value, these are the division `<div>` and `<span>`
 elements.
 
 These two elements act as containers for styling purposes, and as such,
@@ -137,32 +135,31 @@ nested inside one another. Examples of inline elements that we have used
 so far include: the anchor tag *\<**a**\>*, the image tag *\<**img**\>*
 and the *\<**span**\>*.
 
-A *\<**div**\>* is a block-level element that is used as container for
+A `<div>` is a block-level element that is used as container for
 large groupings of content, which helps to build a web page's layout and
-design. A *\<**span**\>*, on the other hand, is an inline-level element,
+design. A `<span>`, on the other hand, is an inline-level element,
 which is used as a container for smaller groupings of text within a
 block-level element. More than likely, you will see *\<**div**\>* and
 *\<**span**\>* with class or id attributes for styling purposes. Let'
 see the two elements in action. For these examples, I'm using the file
 *14\_div-span.html*.
 
-*\<**!DOCTYPE html**\>*
-
-*\<**html**\>*
-
-*\<**head**\>*
-
-*\<**title**\>Div and Span\</**title**\>*
-
-*\</**head**\>*
-
-*\<**body**\>*
-
-*\<**h1**\>Div and Span\</**h1**\>*
-
-*\<**div**\>*
-
-*\<**p**\>*
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Div and Span</title>
+	</head>
+	<body>
+		<h1>Div and Span</h1>
+		<div>
+			<p>
+A div tag is a block level element, and this means that it will take up all available width space. A <span>span</span> element, on the other hand, falls into the normal flow of a document.
+			</p>
+		</div>
+	</body>
+</html>
+```
 
 *A div tag is a block level element, and this means that it will take up
 all available width space. A **\<span\>**span**\<**/**span\>** element,
