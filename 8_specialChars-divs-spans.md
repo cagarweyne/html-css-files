@@ -125,24 +125,24 @@ element.
 Whenever you hear that an element is a block-level element, what this
 means is that this kind of element begins on a new line, and that it
 occupies any available width. Block-level elements can be nested inside
-one another. Examples of block-level elements include *\<**h1**\>*,
-*\<**p**\>* and *\<**div**\>*.
+one another. Examples of block-level elements include `<h1>`,
+`<p>` and <div>`.
 
 Inline-level elements do not begin on a new line, instead they fall into
 the normal flow of a document, lining up one after the other. Inline
 elements only maintain the width of their content, and they can be
 nested inside one another. Examples of inline elements that we have used
-so far include: the anchor tag *\<**a**\>*, the image tag *\<**img**\>*
-and the *\<**span**\>*.
+so far include: the anchor tag `<a>`, the image tag `<img>`
+and the `<span>`.
 
 A `<div>` is a block-level element that is used as container for
 large groupings of content, which helps to build a web page's layout and
 design. A `<span>`, on the other hand, is an inline-level element,
 which is used as a container for smaller groupings of text within a
-block-level element. More than likely, you will see *\<**div**\>* and
-*\<**span**\>* with class or id attributes for styling purposes. Let'
+block-level element. More than likely, you will see `<div>` and
+`<span>` with class or id attributes for styling purposes. Let's
 see the two elements in action. For these examples, I'm using the file
-*14\_div-span.html*.
+14_div-span.html.
 
 ```html
 <!DOCTYPE html>
@@ -160,26 +160,12 @@ A div tag is a block level element, and this means that it will take up all avai
 	</body>
 </html>
 ```
-
-*A div tag is a block level element, and this means that it will take up
-all available width space. A **\<span\>**span**\<**/**span\>** element,
-on the other hand, falls into the normal flow of a document.*
-
-*\</**p**\>*
-
-*\</**div**\>*
-
-*\</**body**\>*
-
-*\</**html**\>*
-
-![](./images/media/image41.jpg){width="4.625in"
-height="1.580858486439195in"}
+![](./images/media/image41.jpg)
 
 Here I have added a div, nested inside this is a paragraph, which
 contains some text and a span element. You will notice that the
-*\<**div**\>* sits on its own new line, as it's a block level element,
-whereas the *\<**span**\>* element falls nicely into the flow of the
+`<div>` sits on its own new line, as it's a block level element,
+whereas the `<span>` element falls nicely into the flow of the
 text without taking up all available width. Even though these two
 elements don't have any semantic meaning or value, they are nonetheless
 very useful and widely used.
