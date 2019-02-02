@@ -28,8 +28,7 @@ format, as our image is very big:
 
 `<img src ="images/beach.jpg" width="600px" />`
 
-![](./images/media/image20.jpg){width="4.28546697287839in"
-height="2.8588713910761157in"}
+![](./images/media/image20.jpg)
 
 Along with the `src` and `width` attributes, we can add an `alt`
 attribute, this describes the content of an image. This alt attribute is 
