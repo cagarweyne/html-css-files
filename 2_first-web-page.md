@@ -141,9 +141,6 @@ While it may not look exciting, you have just created your first web
 page! HTML is the building blocks of all websites on the web, and
 without HTML, there wouldn't be any websites.
 
-**\
-**
-
 Comments in HTML
 ----------------
 
@@ -158,37 +155,26 @@ HTML, comments start with ***\<!\--*** and end with ***\--\>***. If you
 create a new file in your chosen text editor and enter the following
 markup:
 
-*\<**!DOCTYPE html**\>*
-
-*\<**html** lang=\"en\"\>*
-
-*\<**head**\>*
-
-*\<**meta** charset=\"utf-8\" /\>*
-
-*\<**title**\>Comments in HTML\</**title**\>*
-
-*\</**head**\>*
-
-*\<**body**\>*
-
-*\<!\-- this is a paragraph tag\--\>*
-
-*\<**h1**\>Comments in HTML\</**h1**\>*
-
-*\<**p**\>Comments are really useful in HTML web pages and also in
-Software Development in general\</**p**\>*
-
-*\</**body**\>*
-
-*\</**html**\>*
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Comments in HTML</title>
+</head>
+<body>
+	<!-- this is a paragraph tag-->
+      <h1>Comments in HTML</h1>
+	<p>Comments are really useful in HTML web pages and also in Software Development in general</p>
+</body>
+</html>
+```
 
 Then save the file as *comments.html*. When you open the file in the
 browser, you will see that we have a simple web page along with some
 comments:
 
-![](./images/media/image5.jpg){width="4.5in"
-height="1.814096675415573in"}
+![](./images/media/image5.jpg)
 
 As you can see, comments are ignored by the browser and not displayed to
 the users. In most code editors, you can use a keyboard shortcut to add
