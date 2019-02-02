@@ -83,17 +83,16 @@ one of them.
 Title Tag
 ---------
 
-The next element that sits inside *\<**head**\>* is
-the *\<**title**\>.* This element sets the title of the document. The
+The next element that sits inside `<head>` is
+the `<title>`. This element sets the title of the document. The
 text inside the pair of opening and closing tags of
-the *\<**title**\>* element doesn't actually appear in the main body of
+the `<title>` element doesn't actually appear in the main body of
 the document, instead the title appears in the tab or window of the
 browser:
 
-![](./images/media/image3.jpg){width="4.336872265966754in"
-height="1.7457075678040246in"}
+![](./images/media/image3.jpg)
 
-The closing tag for the *\</**head**\>* element comes after closing the
+The closing tag for the `<head>` element comes after closing the
 title tag, and this just closes the corresponding tag that was opened. 
 
 Body Tag 
