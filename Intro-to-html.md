@@ -55,11 +55,9 @@ Now we’ve talked a lot about the different features that a text/code editor sh
 - Sublime Text - (sublimetext.com)
 - Brackets - (brackets.io)  
 - Atom - (atom.io)  
-- Coda - (panic.com/coda) 
-- Notepad++ - (notepad-plus-plus.org)
-- BBEdit - (barebones.com/products/bbedit)
+- Microsft Visual Studio Code
 
-Most of these text editors are available on all major operating system platforms, Windows, Mac, and Linux/Ubuntu except for Coda, BBEdit which are only on MAC, and Notepad++ which is only for Windows. Atom, Brackets and Notepad++ are fully free and open source text editors that you can download and use without paying anything. Sublime Text is also free, however, the unregistered version will have a constant pop up that will ask you to purchase a license. The other text editors all have trial periods, which means that you can download them and try out the text editor for free. 
+Most of these text editors are available on all major operating system platforms, Windows, Mac, and Linux/Ubuntu. Atom, Brackets and MS Visual Code are fully free and open source text editors that you can download and use without paying anything. Sublime Text is also free, however, the unregistered version will have a constant pop up that will ask you to purchase a license.
 
-Personally, I use a combination of text editors depending on the project that I am working on. So, go ahead and try out a few text editors and see which one you feel the most comfortable using. 
+I would highly recommend that you use MS Visual Studio Code, it is absoslutely free and has pretty much endless features that you can add with its free plugins.
 
