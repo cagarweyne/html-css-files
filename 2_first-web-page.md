@@ -200,32 +200,23 @@ for main headings, h2 is used for subheadings, and if there are further
 sections under the subheadings, then you can use h3 up to h6. In your
 code editor, type up the following and save as *headings.html*:
 
-*\<**!DOCTYPE html**\> *
-
-*\<**html** lang=\"en\"\> \
-\<**head**\> *
-
-*\<**meta** charset=\"utf-8\" /\>*
-
-*\<**title**\>HTML Headings\</**title**\> *
-
-*\</**head**\> \
-\<**body**\> *
-
-*\<**h1**\>Main Heading -- level 1\</**h1**\>*
-
-*\<**h2**\>Subheading -- level 2\</**h2**\>*
-
-*\<**h3**\>level 3 Heading\</**h3**\>*
-
-*\<**h4**\>level 4 Heading\</**h4**\>*
-
-*\<**h5**\>level 5 Heading\</**h5**\>*
-
-*\<**h6**\>level 6 Heading\</**h6**\>   *
-
-*\</**body**\> \
-\</**html**\>*
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8" />
+    <title>HTML Headings</title> 
+  </head> 
+  <body> 
+    <h1>Main Heading – level 1</h1>
+    <h2>Subheading – level 2</h2>
+    <h3>level 3 Heading</h3>
+    <h4>level 4 Heading</h4>
+    <h5>level 5 Heading</h5>
+    <h6>level 6 Heading</h6>	    
+  </body> 
+</html>
+```
 
 Browsers will display the sizes of the headings slightly differently
 from others. However, what you should see is that content of the h1
@@ -243,31 +234,23 @@ following is a simple HTML document that I've created with two
 paragraphs. You can type up the following markup to get the same file,
 and then save as *paragraphs.html*:
 
-*\<**!DOCTYPE html**\> *
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8" /> 		 
+    <title>Hello World</title> 
+  </head> 
+  <body> 
+    <h1>Understanding HTML</h1>
+    HTML is the building blocks of web pages
+    It specifies the structure of documents. 
 
-*\<**html** lang=\"en\"\> \
-\<**head**\> *
-
-*\<**meta** charset=\"utf-8\" /\>   *
-
-*\<**title**\>Hello World\</**title**\> *
-
-*\</**head**\> \
-\<**body**\> *
-
-*\<**h1**\>Understanding HTML\</**h1**\>*
-
-*HTML is the building blocks of web pages*
-
-*It specifies the structure of documents. *
-
-> *HTML plays an important part in web documents along with Cascading
-> Style Sheets. *
-
-\*  *
-
-*\</**body**\> \
-\</**html**\>*
+HTML plays an important part in web documents along with      Cascading Style Sheets. 
+	    
+  </body> 
+</html>
+```
 
 However, when you view this in the browser, it is formatted differently:
 
@@ -281,31 +264,24 @@ tell the browser that each sentence is a single paragraph. We can do
 that by wrapping each sentence with an opening and closing *\</**p**\>*
 tag:
 
-*\<**!DOCTYPE html**\> *
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8" /> 
+    <title>Hello World</title> 
+  </head> 
+  <body> 
+    <h1>Understanding HTML</h1>
 
-*\<**html** lang=\"en\"\> \
-\<**head**\> *
+    <p>HTML is the building blocks of web pages
+    It specifies the structure of documents.</p> 
 
-*\<**meta** charset=\"utf-8\" /\> *
-
-*\<**title**\>Hello World\</**title**\> *
-
-*\</**head**\> \
-\<**body**\> *
-
-*\<**h1**\>Understanding HTML\</**h1**\>*
-
-*\<**p**\>HTML is the building blocks of web pages*
-
-*It specifies the structure of documents.\</**p**\> *
-
-> *\<**p**\>HTML plays an important part in web documents along with
-> Cascading Style Sheets.\</**p**\> *
-
-\*  *
-
-*\</**body**\> \
-\</**html**\>*
+<p>HTML plays an important part in web documents along with Cascading Style Sheets.</p> 
+	    
+  </body> 
+</html>
+```
 
 Now when we save the document and reload the web page in the browser, we
 get our desired effect:
@@ -324,33 +300,12 @@ White Space
 Web developers use white space liberally to help make the code easier to
 read and understand. White space does not affect the rendering of web
 pages in the browser. In fact, you can have as much space between
-elements and content and the browser will ignore the extra spaces. Using
-our paragraphs from the last example, we can add white space:
-
-*\<**p**\>HTML is the building blocks of web pages*
-
-*It specifies the structure of documents.\</**p**\> *
-
-*\<p\>HTML plays an important part in web documents along with Cascading
-Style Sheets .\</**p**\>*
-
-Let's save this and refresh the browser to see if anything changed:
-
-![](./images/media/image8.jpg){width="4.656641513560805in"
-height="1.875in"}
-
-As you can see, this has no effect on the output. The browser has
-collapsed all extra white space in the output. When the browser sees two
-or more spaces next to each other, it will simply collapse the space
-into just one space. You can also have a line break and the browser will
-also treat that as a single space on output. This means that web
-developers can make use of this to add indentations and extra white
-space where necessary to make the code tidier and easier to comprehend.
+elements and content and the browser will ignore the extra spaces. 
 
 Line Breaks & Horizontal rules 
 -------------------------------
 
-As we just saw, the browser will ignore any line breaks and collapse the
+The browser will ignore any line breaks and collapse the
 extra white space into a single one. However, what if you wanted a line
 break within your paragraph? You can use the *\<**br**/\>* tag to
 achieve this. Notice that the *\<**br**/\>* tag is self-closing just
@@ -361,10 +316,27 @@ first word in our first paragraph:
 
 *It specifies the structure of documents.\</**p**\>*
 
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8" /> 
+    <title>Hello World</title> 
+  </head> 
+  <body> 
+    <h1>Understanding HTML</h1>
+
+    <p>HTML <br /> is the building blocks of web pages
+    It specifies the structure of documents.</p> 
+
+<p>HTML plays an important part in web documents along with Cascading Style Sheets.</p> 
+	    
+  </body> 
+</html>
+```
 Save your changes and then refresh the browser to see the changes:
 
-![](./images/media/image9.jpg){width="5.061264216972878in"
-height="2.0604833770778654in"}
+![](./images/media/image9.jpg)
 
 As you can see, the line break has been inserted exactly where we
 specified in the HTML. The line break tag is useful when you want to add
