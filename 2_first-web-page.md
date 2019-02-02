@@ -416,8 +416,8 @@ The words *represent* and *emphasis* now stand out as bold. Adding the
 bold tag has not added anything except the visual representation of the
 bold text on the web page. We can achieve the same effect with the
 strong tag by merely replacing it with the bold tag for each word
-*\<**strong**\>represents\</**strong**\>* and
-*\<**strong**\>emphasis\</**strong**\>.* We get exactly the same result
+`<strong>represents</strong>` and
+`<strong>emphasis</strong>`. We get exactly the same result
 as before.
 
 Try this out. You may be wondering: what is the difference between the
@@ -438,23 +438,24 @@ importance across to the listener.
 
 The italic and emphasis tags both do the same thing. Let's italicize the
 headings for each heading that describes the two tags using the
-\<**i**\> and \<**em**\> tags respectively:
+`<i>` and `</em>` tags respectively:
 
-*\<**h2**\>\<**i**\>The Italic Tag\</**i**\>\</**h2**\>*
+```html
+<h2><i>The Italic Tag</i></h2>
 
-*\<**h2**\>\<**em**\>The Emphasis Tag\</**em**\>\</**h2**\>*
+<h2><em>The Emphasis Tag</em></h2>
+```
 
 We need both an opening and closing tag for each of the tags to
 italicize the words, so make sure to nest them inside the opening and
-closing *\<**h2**\>* tags. Save and switch over to your browser, and you
+closing `<h2>` tags. Save and switch over to your browser, and you
 will notice that both the headings are now italicized:
 
-![](./images/media/image12.jpg){width="4.130648512685914in"
-height="1.9314512248468942in"}
+![](./images/media/image12.jpg)
 
 In the same way that adding a bold tag visually highlights a word,
-adding an *\<**i**\>* just italicizes the word without adding any
-semantic meaning. Using *\<**em**\>* on the other hand, adds semantic
+adding an `<i>` just italicizes the word without adding any
+semantic meaning. Using `</em>` on the other hand, adds semantic
 meaning to your markup. It's telling screen readers, for example, that
 this piece of text needs to be emphasized.
 
@@ -463,14 +464,13 @@ HTML Parent/Child Structure
 
 All HTML documents follow a structured parent child relationship. As
 we've already created a web page, we did so by making sure the first
-line in the document was the *\<**!DOCTYPE html**\>*, then the html
+line in the document was the `<!DOCTYPE html>`, then the html
 element then the head and so on. The following is a diagram of the
 parent and child relationship of a simple web page:
 
-![](./images/media/image13.jpg){width="5.285592738407699in"
-height="2.4148151793525807in"}
+![](./images/media/image13.jpg)
 
-The very first element is the *\<**!DOCTYPE html**\>*, which specifies
+The very first element is the `<!DOCTYPE html>`, which specifies
 the version of HTML that the document will be using. The root element is
 the html tag and everything in the document from there onward is nested
 inside this element. The elements are also called nodes and all the
@@ -495,31 +495,21 @@ To show the parent-child relationships of nodes in the code, web
 developers make use of the white space by indenting the children inside
 their parent containers. We have been doing this already with our code:
 
-*\<**!DOCTYPE html**\> *
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8" /> 
+    <title>Hello World</title> 
+  </head> 
+  <body> 
+    <h1>Understanding HTML</h1>
 
-*\<**html** lang=\"en\"\> \
-\<**head**\> *
+    <p>HTML is the building blocks of web pages
+    It specifies the structure of documents.</p> 
 
-*\<**meta** charset=\"utf-8\" /\> *
-
-*\<**title**\>Hello World\</**title**\> *
-
-*\</**head**\> \
-\<**body**\> *
-
-*\<**h1**\>Understanding HTML\</**h1**\>*
-
-*\<**p**\>HTML is the building blocks of web pages*
-
-*It specifies the structure of documents.\</**p**\> *
-
-> *\<**p**\>HTML plays an important part in web documents along with
-> Cascading Style Sheets.\</**p**\> *
-
-\*  *
-
-*\</**body**\> \
-\</**html**\>*
-
-**\
-**
+<p>HTML plays an important part in web documents along with Cascading Style Sheets.</p> 
+	    
+  </body> 
+</html>
+```
