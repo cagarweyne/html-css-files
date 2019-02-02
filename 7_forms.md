@@ -408,8 +408,7 @@ have added, then switch over to the browser:
 As you can see, we have a nice select menu along with its label. If you
 click on the drop down, you will see that all our job titles are listed:
 
-![](./images/media/image37.jpg){width="2.432014435695538in"
-height="1.6088713910761154in"}
+![](./images/media/image37.jpg)
 
 We can further organize our list of job titles, just like we organized
 the form controls using ***fieldset***, by using the *\<**optgroup**\>*
@@ -418,43 +417,30 @@ the *\<**optgroup**\>* tag wraps around a group of option tags. We will
 add two *\<**optgroup**\>* tags, one for development roles and the other
 for business related roles:
 
-*\<**label** for=\"job-title\"\>Job Title\</**label**\>*
-
-*\<**select** id=\"job-title\" name=\"user\_job-title\"\>*
-
-*\<**optgroup** label=\"Development\"\> *
-
-*\<**option** value=\"web-designer\"\>Web Designer\</**option**\>*
-
-*\<**option** value=\"user-experience\"\>User Experience\</**option**\>*
-
-*\<**option** value=\"front-end-developer\"\>Front-end
-Developer\</**option**\>*
-
-*\<**option** value=\"backend-developer\"\>Back-end
-Developer\</**option**\>*
-
-*\</**optgroup**\>*
-
-*\<**optgroup** label =\"Business\"\> *
-
-*\<**option** value=\"business-owner\"\>Business Owner\</**option**\> *
-
-*\<**option** value=\"freelancer\"\>Freelancer\</**option**\>*
-
-*\</**optgroup**\>*
-
-*\</**select**\>*
+```html
+<label for="job-title">Job Title</label>
+<select id="job-title" name="user_job-title">
+  <optgroup label="Development">  
+    <option value="web-designer">Web Designer</option>
+    <option value="user-experience">User Experience</option>
+    <option value="front-end-developer">Front-end Developer</option>
+    <option value="backend-developer">Back-end Developer</option>
+  </optgroup>
+  <optgroup label ="Business">  
+    <option value="business-owner">Business Owner</option>    
+    <option value="freelancer">Freelancer</option>
+  </optgroup>
+</select>
+```
 
 We have now created two option groups, one for development and one for
-business. You will note that the *\<**optgroup**\>* element has an
-attribute of *label*. This is not the same as the label element, and the
+business. You will note that the `<optgroup>` element has an
+attribute of `label`. This is not the same as the label element, and the
 role of this attribute is to display a label inside the dropdown menu
 for each respective group. Save everything, and the switch to the
 browser and refresh:
 
-![](./images/media/image38.jpg){width="2.3826388888888888in"
-height="1.6692300962379703in"}
+![](./images/media/image38.jpg)
 
 You can see that our options are organized neatly into two groups:
 Development and Business. The actual labels themselves are not
@@ -476,25 +462,21 @@ Just after the select menu we will add two labels, and inside these
 labels we will add *I agree to T&Cs* and *I disagree* respectively.
 After each label, we will add our radio button for each option:
 
-*\<**label**\>I agree to T&amp;Cs\</**label**\>*
+```html
+<label>I agree to T&amp;Cs</label>
+<input type="radio" id="agree" value="agree" name="user_agree" />
+<label>I disagree</label>
+<input type="radio" id="disagree" value="disagree" name="user_agree" />
+```
 
-*\<**input** type=\"radio\" id=\"agree\" value=\"agree\"
-name=\"user\_agree\" /\>*
-
-*\<**label**\>I disagree\</**label**\>*
-
-*\<**input** type=\"radio\" id=\"disagree\" value=\"disagree\"
-name=\"user\_agree\" /\>*
-
-You will notice that the labels do not have a *for* attribute, and to
+You will notice that the labels do not have a `for` attribute, and to
 create radio buttons I am using the input element once again, only this
 time the type value is radio. We have also created id attributes that
 correspond to user choices, whether they agree or disagree. If we now
 save this and switch over to the browser and refresh, we can see our two
 radio buttons:
 
-![](./images/media/image39.jpg){width="4.707650918635171in"
-height="1.6612904636920385in"}
+![](./images/media/image39.jpg)
 
 In the HTML markup, the name value is the same for both radio buttons.
 This is to prevent the user from selecting both radio buttons. At the
@@ -520,48 +502,37 @@ us which major topic areas are interesting to them. They might be
 interested in more than one topic, and this is perfectly acceptable as
 we can use checkboxes to receive this input. I'll add some checkboxes
 just after the closing select menu element and before the radio buttons
-inside a new third ***fieldset*** element:
+inside a new third `fieldset` element:
 
-*\<**fieldset**\>*
+```html
+<fieldset>
+    <label>Interested to learn about:</label><br />
+    
+    <input type="checkbox" id="development" value="interest_development" name="user_interest" />
+    <label for="development">Development</label><br />
+    
+    <input type="checkbox" id="design" value="interest_design" name="user_interest">
+    <label for="development">Design</label><br />
 
-*\<**label**\>Interested to learn about:\</label\>\<**br** /\>*
+    <input type="checkbox" id="business" value="interest_business" name="user_interest" />
+    <label for="business">business</label><br />
 
-*\<**input** type=\"checkbox\" id=\"development\"
-value=\"interest\_development\" name=\"user\_interest\" /\>*
-
-*\<**label** for=\"development\"\>Development\</**label**\>\<**br** /\>*
-
-*\<**input** type=\"checkbox\" id=\"design\" value=\"interest\_design\"
-name=\"user\_interest\"\>*
-
-*\<**label** for=\"development\"\>Design\</**label**\>\<**br** /\>*
-
-*\<**input** type=\"checkbox\" id=\"business\"
-value=\"interest\_business\" name=\"user\_interest\" /\>*
-
-*\<**label** for=\"business\"\>business\</**label**\>\<br /\>*
-
-*\<**label**\>I agree to T&amp;Cs\</**label**\>*
-
-*\<**input** type=\"radio\" id=\"agree\" value=\"agree\"
-name=\"user\_agree\" /\>*
-
-*\<**label**\>I disagree\</label\>*
-
-*\<**input** type=\"radio\" id=\"disagree\" value=\"disagree\"
-name=\"user\_agree\"\>*
-
-*\</**fieldset**\>*
-
+    <label>I agree to T&amp;Cs</label>
+    
+    <input type="radio" id="agree" value="agree" name="user_agree" />
+    <label>I disagree</label>
+    <input type="radio" id="disagree" value="disagree" name="user_agree">
+</fieldset>
+```
 Let's go through the code line by line. The first thing that I added
-right after the closing ***fieldset*** tag for the text area and select
-menu is a third ***fieldset*** group that will house the checkboxes and
-the radio buttons. To do this, I created a new ***fieldset*** element
+right after the closing `fieldset` tag for the text area and select
+menu is a third `fieldset` group that will house the checkboxes and
+the radio buttons. To do this, I created a new `fieldset` element
 with opening and closing tags. Then I added a label, again without a
-*for* attribute, to act as a title for the checkboxes. Inside the label,
+`for` attribute, to act as a title for the checkboxes. Inside the label,
 I added the text *Interested to learn about*.
 
-You will also see that I added a *\<**br** /\>* tag. This is to create a
+You will also see that I added a `<br />` tag. This is to create a
 new line for the checkbox and is something that I have added to the end
 of each label for the checkboxes, so that we can have the checkboxes and
 the labels positioned vertically.
@@ -576,15 +547,14 @@ the server side to ascertain what the user actually selected.
 For each of the values I have prefixed interest and then followed by an
 underscore and the actual topic. So this is not new, as we've actually
 done something like this with the select menus. Then I added a label for
-each interest, and this label has a *for* attribute so that it is
+each interest, and this label has a `for` attribute so that it is
 associated with the correct input element. This process is repeated for
 each of the three interests that are listed for the user to select from.
 If we save the code and switch to the browser and refresh, we can see
 that we now have the option for the user to select one or more interests
 via checkboxes:
 
-![](./images/media/image40.jpg){width="4.707670603674541in"
-height="2.1048392388451442in"}
+![](./images/media/image40.jpg)
 
 Forms play an important role in gathering data from users, and as we've
 seen, HTML provides us with all the tools that we need to replicate the
