@@ -10,24 +10,17 @@ each line in detail.
 
    
 ```html
-*\<**!DOCTYPE html**\> *
-
-*\<**html** lang=\"en\"\> \
-\<**head**\> *
-
-*\<**meta** charset=\"utf-8\" /\> *
-
-*\<**title**\>My First Web Page\</**title**\> *
-
-*\</**head**\> \
-\<**body**\> *
-
-*\<**h1**\>Hello World\</**h1**\> *
-
-*\<**p**\>My first web page.\</**p**\> *
-
-*\</**body**\> \
-\</**html**\>*
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8" /> 
+    <title>My First Web Page</title> 
+  </head> 
+  <body> 
+    <h1>Hello World</h1> 
+      <p>My first web page.</p> 
+  </body> 
+</html>
 ```
 
 The first line *\<**!DOCTYPE html**\>* informs the browser
