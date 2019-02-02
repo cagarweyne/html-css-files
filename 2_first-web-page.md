@@ -8,7 +8,6 @@ you need to construct your first web page using HTML. This might look a
 little different to anything you've seen before, but we'll go through
 each line in detail.
 
-   
 ```html
 <!DOCTYPE html> 
 <html lang="en"> 
