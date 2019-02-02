@@ -9,7 +9,7 @@ little different to anything you've seen before, but we'll go through
 each line in detail.
 
    
-
+```html
 *\<**!DOCTYPE html**\> *
 
 *\<**html** lang=\"en\"\> \
@@ -28,6 +28,7 @@ each line in detail.
 
 *\</**body**\> \
 \</**html**\>*
+```
 
 The first line *\<**!DOCTYPE html**\>* informs the browser
 about the type of HTML version that is being used and is called the
