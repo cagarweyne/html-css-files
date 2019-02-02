@@ -43,21 +43,19 @@ directions:
 With ordered lists, you can create a list that is numbered, this means
 that you don't have to explicitly specify each number on the list item.
 Each ordered list will start from one and count upwards up to the number
-of *\<**li**\>*elements that you add in between the *\<**ol**\>* tag. In
+of `<li>` elements that you add in between the `<ol>` tag. In
 our example, we only have three list elements, which means that the
 numbering will start from one and end at three.
 
-**\
-**
 
 ### Unordered Lists 
 
 These are lists that begin with a bullet point instead of number like
 its ordered list counterpart. Creating an unordered list is almost
 identical to ordered lists, the main difference is that instead of using
-the *\<**ol**\>* ordered list tag element, you use the *\<**ul**\>*
-unordered list tag. In the same way that the *\<**ol**\>* tag was used
-as the container for the list elements, the *\<**ul**\>* acts as the
+the `<ol>` ordered list tag element, you use the `<ul>`
+unordered list tag. In the same way that the `<ol>` tag was used
+as the container for the list elements, the `<ul>` acts as the
 container for each of the unordered list items that reside in between
 the opening and closing tags. We will use an unordered list to list the
 different technologies used to create websites on the web:
