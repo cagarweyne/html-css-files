@@ -28,7 +28,7 @@ format, as our image is very big:
 
 `<img src ="images/beach.jpg" width="600px" />`
 
-![](https://github.com/cagarweyne/html-css-files/blob/master/images/media/image20.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image20.jpg)
 
 Along with the `src` and `width` attributes, we can add an `alt`
 attribute, this describes the content of an image. This alt attribute is 
