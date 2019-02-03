@@ -1,0 +1,15 @@
+{
+  "courses": {
+    "html": "lessons": {
+      "Introduction": "1_Intro-to-html.md",
+      "Your first web page": "2_first-web-page.md",
+      "Hyperlinks": "3_hyperlinks.md",
+      "Lists": "4_lists.md",
+      "Images": "5_images.md",
+      "Tables": "6_tables.md",
+      "Forms": "7_forms.md",
+      "Special Chars, Spans & Div": "8_specialChars-divs-spans.md",
+      "HTML5 Web Page Structure": "9_html5-web-page-structure.md"
+    }
+  }  
+}
