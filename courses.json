@@ -1,6 +1,6 @@
 {
   "courses": {
-    "html": {
+    "HTML": {
        "lessons": {
 	 "1_Introduction": "1_Intro-to-html.md",
 	 "2_Your first web page": "2_first-web-page.md",
