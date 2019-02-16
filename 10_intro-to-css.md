@@ -79,8 +79,8 @@ underline when the user hovers over the link.
 Inline Styles 
 --------------
 
-***Exercise File: css-section/1-getting-started-with-CSS/
-1-inline-and-internal-styles/start***
+Exercise File: css-section/1-getting-started-with-CSS/
+1-inline-and-internal-styles/start
 
 There are four ways we can add CSS styles to our web pages:
 
@@ -129,7 +129,9 @@ So, in our *index.html* file let\'s style the body element. To add
 inline styles, we'll use the style attribute, and we'll make the
 background a color of orange. Here is the code to do that:
 
-\<**body** *style*=\"background-color: orange;\"\>
+```html 
+<body style="background-color: orange;">
+```
 
 In the *index.html,* I've given the body element a *style* attribute,
 then inside the quotation, I've added the property that I want to style,
@@ -139,8 +141,7 @@ a space, then the word *orange* and a semicolon.
 Now, when we save our HTML file and switch over to the browser and
 refresh the page:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image45.jpg){width="5.593400043744532in"
-height="0.7898151793525809in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image45.jpg)
 
 We can see how this makes the background color of our page orange. We
 can add styling to any element using the inline method. Let's add some
@@ -148,13 +149,14 @@ styling to the h1 element. We're going to do the same thing as we did
 with the body element, and that is to add a style attribute and make the
 color of the text white:
 
-\<**h1** *style*=\"color: white;\"\>Granada, Spain\</**h1**\>
+```html 
+\<h1 style="color: white;">Granada, Spain\</h1>
+```
 
-When we save our *index.html* file, and refresh the browser preview, we
+When we save our index.html file, and refresh the browser preview, we
 see how the main heading text changes to the color white:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image46.jpg){width="5.0in"
-height="2.0355424321959754in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image46.jpg)
 
 As you can see, we can style any element with any CSS property, using
 this in-line style method. We could style the entire page with this
@@ -195,28 +197,29 @@ document by using a style tag. That's what we're going to do, so, inside
 the head element, right beneath the title tag, create an opening and
 closing style tag like so:
 
-\<**head**\>
+```html
+<head>
 
-\<**title**\>Granada\</**title**\>
+<title>Granada\</title>
 
-\<**style**\>
+<style\>
 
-\</**style**\>
-
-\</**head**\>
+</style>
+```
+```html
+<head>
 
 This time we\'re going to style the paragraph by making the font size
 bigger. Here's how we can do that:
 
-\<**style**\>
+<style>
 
 p {
-
 font-size: 20px;
-
 }
 
-\</**style**\>
+</style>
+```
 
 So, in between the style tag, I have targeted all paragraphs by writing
 *p*, then followed by a set of curly braces. I created little space by
@@ -228,8 +231,7 @@ The *px* stands for pixels, and this will be explained in more detail
 later on. If we now save our changes and switch back to the browser
 preview, we will see that our text is now slightly bigger:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image47.jpg){width="3.928976377952756in"
-height="2.2177416885389327in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image47.jpg)
 
 If we go back into our style tag and this time let's make the font
 weight slightly bolder, and you can probably guess which property we can
@@ -239,17 +241,16 @@ hit Return or, Enter, and right below what we just wrote, I\'m going to
 write *font-weight*, followed by a colon and a space, then the word
 bold, and a semicolon:
 
-\<**style**\>
-
+```html
+<style>
 p {
-
 font-size: 20px;
 
 font-weight: bold;
 
 }
-
-\</**style**\>
+</style>
+```
 
 We've already used a couple of CSS properties, values and syntax without
 explaining them. Don\'t worry about these properties for now, we\'ll
@@ -259,8 +260,7 @@ make it bold. So, let\'s save our changes and take a look at it in the
 browser, then in the browser preview, click the refresh button to see
 the changes:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image48.jpg){width="3.7358541119860016in"
-height="1.75in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image48.jpg)
 
 You will immediately notice how the text in our paragraph is now larger
 and bold. Let's do the same for our headings. So, let's go back to our
@@ -270,54 +270,42 @@ h1, followed by a space and a set of curly braces. Then, inside the
 curly, braces we\'re going to write font-size followed by colon, a
 space, then we're going to write 90px and a semicolon:
 
-\<**style**\>
-
+```html
+<style>
 p {
-
 font-size: 20px;
-
 font-weight: bold;
-
 }
 
 h1 {
-
 font-size: 90px;
-
 }
-
-\</**style**\>
+</style>
+```
 
 To see the changes, as usual save and then preview in the browser by
 clicking refresh. You will see that we have a pretty large heading on
 the page:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image49.jpg){width="5.763888888888889in"
-height="3.421527777777778in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image49.jpg)
 
 Now that the font size is bigger, let's change the text color to
 firebrick red. We can easily change this by going into the h1 selector
-and adding a *color* property followed by the color keyword *firebrick*:
+and adding a color property followed by the color keyword firebrick:
 
-\<**style**\>
-
+```html
+<style>
 p {
-
 font-size: 20px;
-
 font-weight: bold;
-
 }
 
 h1 {
-
 font-size: 90px;
-
 color: firebrick;
-
 }
-
-\</**style**\>
+</style>
+```
 
 So, if we save our *index.html* file, go back to the browser preview and
 refresh the page. You will notice that nothing happens, the *h1* is
@@ -333,8 +321,7 @@ style attribute in the h1 element and hit Delete. Then we save our index
 file, go back to the browser preview and hit Refresh. We\'re now able to
 see the color of the *h1* change to Fire Brick Red:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image50.jpg){width="4.398956692913385in"
-height="2.0887095363079613in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image50.jpg)
 
 The next thing that we will do is to make the background in the body
 white, but we still want the header area to have a background color of
@@ -349,37 +336,28 @@ we're going to specify that we want to change the background color
 property by writing *background-color* followed by a colon and then give
 it the value *orange* like so:
 
-\<**style**\>
-
+```html
+<style>
 p {
-
 font-size: 20px;
-
 font-weight: bold;
-
 }
 
 h1 {
-
 font-size: 90px;
-
 color: firebrick;
-
 }
 
 header {
-
 background-color: orange;
-
 }
-
-\</**style**\>
+</style>
+```
 
 As usual we will save the file and then preview the changes in the
 browser by clicking the refresh button:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image51.jpg){width="5.763888888888889in"
-height="1.4152777777777779in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image51.jpg)
 
 We can see that the body background is back to the default color of
 white, while the header maintains that orange background color. The
@@ -428,14 +406,12 @@ the head tags. So, we\'ll go over to the head section of our HTML file
 and, right beneath the title tag, we\'ll create a link tag. The
 following is the syntax for linking our style sheet to the web page:
 
-\<**head**\>
-
-\<**title**\>Granada\</**title**\>
-
-\<**link** rel=\"stylesheet\" href=\"css/style.css\" /\>
-
-\</**head**\>
-
+```html
+<head>
+<title>Granada\</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+```
 At the very least, we\'ll need to add two attributes to this link tag in
 order for our CSS file to link correctly. The first attribute that we
 need to include is the relationship attribute, shortened to *rel*. This
@@ -460,6 +436,7 @@ First, let\'s style the *body* of the page by aligning the text to the
 center and changing the font size of the *h1* element and give it a
 color of white:
 
+```html
 body {
 
 text-align: center;
@@ -473,23 +450,24 @@ font-size: 72px;
 color: white;
 
 }
+```
 
 Next, let\'s give our header an orange background color:
 
+```html
 header {
-
 background-color: orange;
-
 }
+```
 
 And finally, let\'s add styles to our paragraph and make a font size of
 *20* pixels:
 
+```html
 p {
-
 font-size: 20px;
-
 }
+```
 
 Don\'t worry if you\'re not sure what these styles mean right now, we'll
 cover everything in detail very soon. The important thing here is that
@@ -501,8 +479,7 @@ page. So, go into the *index.html* file and remove all the styling from
 the opening style tag to the closing tag itself and delete. Then save
 the file and preview the changes in the browser by clicking refresh:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image52.jpg){width="5.0in"
-height="1.0427712160979878in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image52.jpg)
 
 We can see how the external stylesheet affects the page. So, compared to
 the previous methods we used to add CSS, the advantage to using this
@@ -534,17 +511,15 @@ back to the head section of our *index.html* page. Then right underneath
 the link tag let\'s create a new style tag like we did earlier -- this
 is how our head section should look like:
 
-\<**head**\>
+```html
+<head>
+<title>Granada</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+</style>
 
-\<**title**\>Granada\</title\>
-
-\<**link** rel=\"stylesheet\" href=\"css/style.css\"\>
-
-**\<style\>**
-
-**\</style\>**
-
-\</**head**\>
+</head>
+``` 
 
 Then inside the style, write \@import followed by a set of quotes and a
 semicolon and inside the set of quotes, we\'ll specify the path to the
