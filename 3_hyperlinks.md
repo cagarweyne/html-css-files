@@ -42,9 +42,6 @@ is *Google* -- however this can be whatever you like, usually it's a
 reference to the name of the web page or resource that you are linking
 to. Creating links will always follow this pattern.
 
-**\
-**
-
 Link to an external web page or another page within the same site
 -----------------------------------------------------------------
 
