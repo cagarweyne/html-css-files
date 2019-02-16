@@ -408,7 +408,7 @@ hyperlink reference attribute and value that are declared with
 figure puts all of the different parts that we have just looked at into
 perspective:
 
-![](./images/media/image2.png){width="5.339511154855643in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image2.png){width="5.339511154855643in"
 height="1.1814512248468942in"}
 
 Tools of the trade 
@@ -495,9 +495,6 @@ Personally, I use a combination of text editors depending on the project
 that I am working on. So, go ahead and try out a few text editors and
 see which one you feel the most comfortable using.
 
-**\
-**
-
 HTML Foundations: your first web page
 -------------------------------------
 
@@ -557,11 +554,6 @@ so that they know which language they\'re dealing with.  You can find
 all the ISO language codes here:
 <http://www.html.am/reference/iso-language-codes.cfm>. 
 
- 
-
-**\
-**
-
 Head Tag
 --------
 
@@ -603,7 +595,7 @@ the *\<**title**\>* element doesn't actually appear in the main body of
 the document, instead the title appears in the tab or window of the
 browser:
 
-![](./images/media/image3.jpg){width="4.336872265966754in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image3.jpg){width="4.336872265966754in"
 height="1.7457075678040246in"}
 
 The closing tag for the *\</**head**\>* element comes after closing the
@@ -640,7 +632,7 @@ be able to open the file as a web page in your browser. Once you have
 saved the file, just navigate to its location in your computer and
 double click it to open -- it should open in your default browser:
 
-![](./images/media/image4.jpg){width="4.5in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image4.jpg){width="4.5in"
 height="2.3215660542432195in"}
 
 While it may not look exciting, you have just created your first web
@@ -693,7 +685,7 @@ Then save the file as *comments.html*. When you open the file in the
 browser, you will see that we have a simple web page along with some
 comments:
 
-![](./images/media/image5.jpg){width="4.5in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image5.jpg){width="4.5in"
 height="1.814096675415573in"}
 
 As you can see, comments are ignored by the browser and not displayed to
@@ -752,7 +744,7 @@ from others. However, what you should see is that content of the h1
 should be the largest of the six and as the level goes up, the size of
 the contents should decrease in size:
 
-![](./images/media/image6.jpg){width="4.171692913385827in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image6.jpg){width="4.171692913385827in"
 height="2.5in"}
 
  Paragraphs
@@ -791,7 +783,7 @@ and then save as *paragraphs.html*:
 
 However, when you view this in the browser, it is formatted differently:
 
-![](./images/media/image7.jpg){width="5.763888888888889in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image7.jpg){width="5.763888888888889in"
 height="1.2944444444444445in"}
 
 The browser has clumped together the two paragraphs into one, so the
@@ -830,7 +822,7 @@ tag:
 Now when we save the document and reload the web page in the browser, we
 get our desired effect:
 
-![](./images/media/image8.jpg){width="4.75in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image8.jpg){width="4.75in"
 height="1.912590769903762in"}
 
 We have the same code as before, but only this time we have wrapped our
@@ -856,7 +848,7 @@ Style Sheets .\</**p**\>*
 
 Let's save this and refresh the browser to see if anything changed:
 
-![](./images/media/image8.jpg){width="4.656641513560805in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image8.jpg){width="4.656641513560805in"
 height="1.875in"}
 
 As you can see, this has no effect on the output. The browser has
@@ -883,7 +875,7 @@ first word in our first paragraph:
 
 Save your changes and then refresh the browser to see the changes:
 
-![](./images/media/image9.jpg){width="5.061264216972878in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image9.jpg){width="5.061264216972878in"
 height="2.0604833770778654in"}
 
 As you can see, the line break has been inserted exactly where we
@@ -910,7 +902,7 @@ Cascading Style Sheets.\</**p**\>*
 Now, let's save this change in our text editor then switch over to the
 browser and see the result:
 
-![](./images/media/image10.jpg){width="5.210725065616798in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image10.jpg){width="5.210725065616798in"
 height="2.1169356955380576in"}
 
 A solid horizontal line has now been added to the web page between the
@@ -975,7 +967,7 @@ Cascading Style Sheets.\</**p**\>*
 Save the changes and switch to your browser then refresh to see the
 results:
 
-![](./images/media/image11.jpg){width="4.657688101487314in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image11.jpg){width="4.657688101487314in"
 height="2.5in"}
 
 The words *represent* and *emphasis* now stand out as bold. Adding the
@@ -1015,7 +1007,7 @@ italicize the words, so make sure to nest them inside the opening and
 closing *\<**h2**\>* tags. Save and switch over to your browser, and you
 will notice that both the headings are now italicized:
 
-![](./images/media/image12.jpg){width="4.130648512685914in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image12.jpg){width="4.130648512685914in"
 height="1.9314512248468942in"}
 
 In the same way that adding a bold tag visually highlights a word,
@@ -1033,7 +1025,7 @@ line in the document was the *\<**!DOCTYPE html**\>*, then the html
 element then the head and so on. The following is a diagram of the
 parent and child relationship of a simple web page:
 
-![](./images/media/image13.jpg){width="5.285592738407699in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image13.jpg){width="5.285592738407699in"
 height="2.4148151793525807in"}
 
 The very first element is the *\<**!DOCTYPE html**\>*, which specifies
@@ -1120,7 +1112,7 @@ linking on the World Wide Web. The anchor tag element takes both an
 opening and closing tag. Let's explore the way you would create a link
 using an anchor tag:
 
-![](./images/media/image14.jpg){width="4.870653980752406in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image14.jpg){width="4.870653980752406in"
 height="1.1745374015748031in"}
 
 The above shows how you would create a link using the anchor
@@ -1135,9 +1127,6 @@ text that will actually be the link which is clicked, in this example it
 is *Google* -- however this can be whatever you like, usually it's a
 reference to the name of the web page or resource that you are linking
 to. Creating links will always follow this pattern.
-
-**\
-**
 
 Link to an external web page or another page within the same site
 -----------------------------------------------------------------
@@ -1160,7 +1149,7 @@ tag\</**a**\> is used to link web pages\</**p**\>*
 Make sure to add the above HTML content in your HTML file or open the
 *9\_hyperlinks.html* file from the exercise files:
 
-![](./images/media/image15.jpg){width="3.6123239282589674in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image15.jpg){width="3.6123239282589674in"
 height="2.1008059930008747in"}
 
 Linking to another region within the same page 
@@ -1175,7 +1164,7 @@ process for linking to external pages. I have a page with some dummy
 text separated into three sections. If you open the file
 *9a\_hyperlinks.html*:
 
-![](./images/media/image16.jpg){width="3.875in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image16.jpg){width="3.875in"
 height="3.3595778652668415in"}
 
 I have created three paragraphs that will act as the link for each
@@ -1224,7 +1213,7 @@ that act as the text, which will become links:
 
 Let's save the changes and switch to the browser to see the results:
 
-![](./images/media/image17.jpg){width="4.35378280839895in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image17.jpg){width="4.35378280839895in"
 height="2.2419356955380576in"}
 
 As you can see from the screenshot above, all the paragraph texts have
@@ -1314,7 +1303,7 @@ left\</**li**\>*
 
 *\</**ol**\>*
 
-![](./images/media/image18.jpg){width="4.370049212598425in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image18.jpg){width="4.370049212598425in"
 height="1.9596773840769903in"}
 
 With ordered lists, you can create a list that is numbered, this means
@@ -1323,9 +1312,6 @@ Each ordered list will start from one and count upwards up to the number
 of *\<**li**\>*elements that you add in between the *\<**ol**\>* tag. In
 our example, we only have three list elements, which means that the
 numbering will start from one and end at three.
-
-**\
-**
 
 ### Unordered Lists 
 
@@ -1352,7 +1338,7 @@ different technologies used to create websites on the web:
 Add this to the *10\_lists.html* file after the ordered lists and see
 the result in the browser:
 
-![](./images/media/image19.jpg){width="3.875in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image19.jpg){width="3.875in"
 height="2.679352580927384in"}
 
 Lists are primarily a way of grouping things together, and lists are not
@@ -1360,9 +1346,6 @@ just to display a series of items. You can use lists to group similar
 items together. The navigation links that you see on websites is an
 unordered list that has been set to display as inline using CSS. We will
 explore how we can style lists in the CSS section.
-
-**\
-**
 
 Images 
 -------
@@ -1394,7 +1377,7 @@ format, as our image is very big:
 
 *\<**img** src =\"images/beach.jpg\" width=\"600px\" /\> *
 
-![](./images/media/image20.jpg){width="4.28546697287839in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image20.jpg){width="4.28546697287839in"
 height="2.8588713910761157in"}
 
 Along with the *src* and *width* attributes, we can add an *alt*
@@ -1418,9 +1401,6 @@ jpg format provides the most quality with high color counts while
 maintaining an appropriate file size. The gif and the *png* format are
 used for images with low color counts or large areas with the same
 color.
-
-**\
-**
 
 Tables 
 -------
@@ -1491,7 +1471,7 @@ you have added so far and view it in the browser, you will see that we
 have a column, which is the heading for the position of the programming
 language:
 
-![](./images/media/image21.jpg){width="5.0in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image21.jpg){width="5.0in"
 height="1.8783136482939633in"}
 
 We can create more columns by listing multiple *\<**td**\>* elements one
@@ -1516,7 +1496,7 @@ other will contain the year when the language first came out:
 If we now preview our table so far, we will see that we have added two
 more columns:
 
-![](./images/media/image22.jpg){width="4.508999343832021in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image22.jpg){width="4.508999343832021in"
 height="1.6895166229221348in"}
 
 You will notice that our table does not have any borders and the text
@@ -1545,7 +1525,7 @@ replace our *\<**td**\>* cells with *\<**th**\>* tags:
 
 Then save our changes and switch to the browser to see the result:
 
-![](./images/media/image23.jpg){width="4.740647419072616in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image23.jpg){width="4.740647419072616in"
 height="1.552419072615923in"}
 
 We now have three column headings that have been emboldened, which will
@@ -1612,7 +1592,7 @@ programming languages. Once you've added the rows and the table cells,
 save and preview the table in the browser. Depending on your browser, it
 should look something like this:
 
-![](./images/media/image24.jpg){width="4.701983814523184in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image24.jpg){width="4.701983814523184in"
 height="1.6088713910761154in"}
 
 ### Structuring Tables 
@@ -1722,9 +1702,6 @@ Once again, adding this element will not add anything visual to our
 table, however it will add meaning to our table structure and we can now
 target different parts of the table easily with CSS for styling.
 
-**\
-**
-
 ### Table Foot Element 
 
 We have a table head and a table body. So, the next logical element to
@@ -1766,7 +1743,7 @@ Add this piece right after the closing table head tag and just before
 the opening table body tag, then save the changes and view the results
 in the browser:
 
-![](./images/media/image25.jpg){width="4.875in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image25.jpg){width="4.875in"
 height="1.7009634733158354in"}
 
 **\
@@ -1789,11 +1766,8 @@ caption tag *\<**caption**\>* just after the opening table tag:
 This will add a nice table title at the top of the table, so save and
 switch to the browser and refresh the page to see the results:
 
-![](./images/media/image26.jpg){width="5.122503280839895in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image26.jpg){width="5.122503280839895in"
 height="1.927419072615923in"}
-
-**\
-**
 
 Forms 
 ------
@@ -1892,7 +1866,7 @@ with user and an underscore so that it\'s easier to tell the difference
 between the name and the ID. Let's save changes and then switch to the
 browser, refresh and see the result:
 
-![](./images/media/image27.jpg){width="4.795378390201225in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image27.jpg){width="4.795378390201225in"
 height="1.1612904636920385in"}
 
 Let's add a few more text input fields, one for the email address and
@@ -1916,7 +1890,7 @@ comprehensive list of all these values, visit this link
 <https://goo.gl/3sQgYC>. Now we can save, switch to the browser refresh
 and view the results so far:
 
-![](./images/media/image28.jpg){width="4.75in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image28.jpg){width="4.75in"
 height="1.3368678915135608in"}
 
 So, here we have three input elements. The first one is for our name,
@@ -1931,9 +1905,6 @@ element and we will be using it again in a different way soon. A quick
 note on the layout of the input fields: you will have noticed that they
 are horizontally positioned next to each other. This is because we have
 no CSS styling applied that dictates how they are positioned.
-
-**\
-**
 
 ### Text Area Element 
 
@@ -1954,7 +1925,7 @@ for a textarea:
 If we save and switch back to the browser and refresh, you can see that
 the text area allows us to type in multiple lines:
 
-![](./images/media/image29.jpg){width="4.516128608923885in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image29.jpg){width="4.516128608923885in"
 height="1.3912937445319336in"}
 
 On the bottom right corner of the text area element is a little
@@ -1967,9 +1938,6 @@ In most browsers, a text area is resizable by the user. There are ways
 to prevent this if you like, but it is highly recommended to leave this
 default behavior unmodified. That way, if the user would like more space
 to type in any direction, they can adjust it however they want.
-
-**\
-**
 
 ### Button Element 
 
@@ -1993,7 +1961,7 @@ button as the type, we need to also specify a value attribute and the
 value for this attribute will be the text that is displayed on the
 button. Let's save this, switch to the browser and refresh:
 
-![](./images/media/image30.jpg){width="4.625in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image30.jpg){width="4.625in"
 height="1.2292465004374453in"}
 
 The second way that we can create a button is using the button element
@@ -2012,15 +1980,12 @@ implies, the default behavior of the *submit* type is to submit the form
 and send all the data over to the server. Let's save this and switch to
 the browser and refresh:
 
-![](./images/media/image31.jpg){width="5.127878390201225in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image31.jpg){width="5.127878390201225in"
 height="1.3629035433070866in"}
 
 You will notice that there is no change in the output on the web page.
 You can use either the input element or the button element to create a
 button in HTML.
-
-**\
-**
 
 ### Labels and Fieldsets 
 
@@ -2045,7 +2010,7 @@ which happens to be called name. This is why we added IDs to our form
 controls so that we can add labels and reference each field with an id.
 Save your changes then switch to your browser and refresh:
 
-![](./images/media/image32.jpg){width="4.457646544181977in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image32.jpg){width="4.457646544181977in"
 height="1.2701607611548555in"}
 
 As you can see, this has now added a label for the name field. The user
@@ -2074,7 +2039,7 @@ label for each of the form controls:
 Now that we have added labels for each of the form controls, we can save
 our changes and switch to the browser and refresh to see the result:
 
-![](./images/media/image33.jpg){width="4.072580927384077in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image33.jpg){width="4.072580927384077in"
 height="1.0691754155730533in"}
 
 Our form is starting to take shape and the user can now fill out the
@@ -2129,7 +2094,7 @@ If you had more fields, you could use more ***fieldset*** to group them
 together. If we save and switch over to the browser, then refresh, we
 can see these logical groupings applied visually:
 
-![](./images/media/image34.jpg){width="4.5in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image34.jpg){width="4.5in"
 height="1.8227712160979876in"}
 
 The default user agent or browser CSS applies a border to each
@@ -2181,7 +2146,7 @@ first ***fieldset*** basic info and the second one profile. Let's save
 our changes and then switch to the browser and refresh to see the
 results:
 
-![](./images/media/image35.jpg){width="4.669354768153981in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image35.jpg){width="4.669354768153981in"
 height="1.7889818460192477in"}
 
 As you can see once again, the default browser styling is being applied
@@ -2244,13 +2209,13 @@ these predefined options, we need to specify what the value should be
 when selected by the user and the form is submitted. Let's save what we
 have added, then switch over to the browser:
 
-![](./images/media/image36.jpg){width="5.625382764654418in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image36.jpg){width="5.625382764654418in"
 height="2.072580927384077in"}
 
 As you can see, we have a nice select menu along with its label. If you
 click on the drop down, you will see that all our job titles are listed:
 
-![](./images/media/image37.jpg){width="2.432014435695538in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image37.jpg){width="2.432014435695538in"
 height="1.6088713910761154in"}
 
 We can further organize our list of job titles, just like we organized
@@ -2295,7 +2260,7 @@ role of this attribute is to display a label inside the dropdown menu
 for each respective group. Save everything, and the switch to the
 browser and refresh:
 
-![](./images/media/image38.jpg){width="2.3826388888888888in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image38.jpg){width="2.3826388888888888in"
 height="1.6692300962379703in"}
 
 You can see that our options are organized neatly into two groups:
@@ -2335,7 +2300,7 @@ correspond to user choices, whether they agree or disagree. If we now
 save this and switch over to the browser and refresh, we can see our two
 radio buttons:
 
-![](./images/media/image39.jpg){width="4.707650918635171in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image39.jpg){width="4.707650918635171in"
 height="1.6612904636920385in"}
 
 In the HTML markup, the name value is the same for both radio buttons.
@@ -2425,7 +2390,7 @@ If we save the code and switch to the browser and refresh, we can see
 that we now have the option for the user to select one or more interests
 via checkboxes:
 
-![](./images/media/image40.jpg){width="4.707670603674541in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image40.jpg){width="4.707670603674541in"
 height="2.1048392388451442in"}
 
 Forms play an important role in gathering data from users, and as we've
@@ -2610,7 +2575,7 @@ on the other hand, falls into the normal flow of a document.*
 
 *\</**html**\>*
 
-![](./images/media/image41.jpg){width="4.625in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image41.jpg){width="4.625in"
 height="1.580858486439195in"}
 
 Here I have added a div, nested inside this is a paragraph, which
@@ -2635,7 +2600,7 @@ positioning or styles, these have to be added via CSS.
 Let's take a visual look at how we can use the HTML5 elements to create
 structured web page documents with semantic value:
 
-![](./images/media/image42.jpg){width="4.557257217847769in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image42.jpg){width="4.557257217847769in"
 height="3.102777777777778in"}
 
 ### Header 
@@ -2766,7 +2731,7 @@ done. *
 Browsers usually indent the content of the *\<**blockquote**\>* element.
 Let's save and switch to the browser then refresh:
 
-![](./images/media/image43.jpg){width="4.625in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image43.jpg){width="4.625in"
 height="2.012153324584427in"}
 
 **\
@@ -2880,7 +2845,7 @@ named CSS, which we\'ll be using to store our CSS files very soon. If
 you double click the *index.html* file, it will open in your default
 browser and you should see the beginnings of our landing page:
 
-![](./images/media/image44.jpg){width="4.883907480314961in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image44.jpg){width="4.883907480314961in"
 height="1.6693547681539807in"}
 
 As you can see in the browser preview, our page is currently not styled.
@@ -2916,7 +2881,7 @@ a space, then the word *orange* and a semicolon.
 Now, when we save our HTML file and switch over to the browser and
 refresh the page:
 
-![](./images/media/image45.jpg){width="5.593400043744532in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image45.jpg){width="5.593400043744532in"
 height="0.7898151793525809in"}
 
 We can see how this makes the background color of our page orange. We
@@ -2930,7 +2895,7 @@ color of the text white:
 When we save our *index.html* file, and refresh the browser preview, we
 see how the main heading text changes to the color white:
 
-![](./images/media/image46.jpg){width="5.0in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image46.jpg){width="5.0in"
 height="2.0355424321959754in"}
 
 As you can see, we can style any element with any CSS property, using
@@ -3005,7 +2970,7 @@ The *px* stands for pixels, and this will be explained in more detail
 later on. If we now save our changes and switch back to the browser
 preview, we will see that our text is now slightly bigger:
 
-![](./images/media/image47.jpg){width="3.928976377952756in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image47.jpg){width="3.928976377952756in"
 height="2.2177416885389327in"}
 
 If we go back into our style tag and this time let's make the font
@@ -3036,7 +3001,7 @@ make it bold. So, let\'s save our changes and take a look at it in the
 browser, then in the browser preview, click the refresh button to see
 the changes:
 
-![](./images/media/image48.jpg){width="3.7358541119860016in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image48.jpg){width="3.7358541119860016in"
 height="1.75in"}
 
 You will immediately notice how the text in our paragraph is now larger
@@ -3069,7 +3034,7 @@ To see the changes, as usual save and then preview in the browser by
 clicking refresh. You will see that we have a pretty large heading on
 the page:
 
-![](./images/media/image49.jpg){width="5.763888888888889in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image49.jpg){width="5.763888888888889in"
 height="3.421527777777778in"}
 
 Now that the font size is bigger, let's change the text color to
@@ -3110,7 +3075,7 @@ style attribute in the h1 element and hit Delete. Then we save our index
 file, go back to the browser preview and hit Refresh. We\'re now able to
 see the color of the *h1* change to Fire Brick Red:
 
-![](./images/media/image50.jpg){width="4.398956692913385in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image50.jpg){width="4.398956692913385in"
 height="2.0887095363079613in"}
 
 The next thing that we will do is to make the background in the body
@@ -3155,7 +3120,7 @@ background-color: orange;
 As usual we will save the file and then preview the changes in the
 browser by clicking the refresh button:
 
-![](./images/media/image51.jpg){width="5.763888888888889in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image51.jpg){width="5.763888888888889in"
 height="1.4152777777777779in"}
 
 We can see that the body background is back to the default color of
@@ -3278,7 +3243,7 @@ page. So, go into the *index.html* file and remove all the styling from
 the opening style tag to the closing tag itself and delete. Then save
 the file and preview the changes in the browser by clicking refresh:
 
-![](./images/media/image52.jpg){width="5.0in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image52.jpg){width="5.0in"
 height="1.0427712160979878in"}
 
 We can see how the external stylesheet affects the page. So, compared to
@@ -3342,7 +3307,7 @@ worry about these for now, we will go over them in detail later on.
 Let's save our index.html file and then switch to the browser and
 refresh:
 
-![](./images/media/image53.jpg){width="4.379032152230971in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image53.jpg){width="4.379032152230971in"
 height="2.6886187664041996in"}
 
 We now see how the page has imported the styles from *import-styles.css*
@@ -3418,7 +3383,7 @@ One of best resources for CSS is the: [Mozilla Developer Network
 Doc](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) link:
 <https://goo.gl/n0DQ4R>, or, MDN Docs:
 
-![](./images/media/image54.jpg){width="4.5in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image54.jpg){width="4.5in"
 height="2.9130719597550305in"}
 
 It has an extensive list of all the standard CSS properties, selectors,
@@ -3432,7 +3397,7 @@ MDN Doc is that there\'s even a browser compatibility chart at the
 bottom of the page, which shows what browsers support each of the
 properties and which ones don't:
 
-![](./images/media/image55.jpg){width="5.114194006999125in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image55.jpg){width="5.114194006999125in"
 height="2.1491940069991253in"}
 
 So, it\'s a handy reference you should keep close by when building
@@ -3489,7 +3454,7 @@ CSS rules or rule sets, tell browsers how to render HTML elements. A CSS
 rule is made up of two main parts, as you've already seen: the selector
 followed by the declaration block:
 
-![](./images/media/image56.jpg){width="4.887096456692913in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image56.jpg){width="4.887096456692913in"
 height="2.0702449693788276in"}
 
 The selector is the part of the CSS rule that targets HTML elements.
@@ -3520,7 +3485,7 @@ our style sheet ready to go, and it\'s already linked to our HTML file,
 which now contains the rest of the content we\'ll need in our Granada
 landing page website. If you open the *index.html* file in the browser:
 
-![](./images/media/image57.jpg){width="4.681451224846894in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image57.jpg){width="4.681451224846894in"
 height="2.6921161417322836in"}
 
 As we can see, the page is once again completely un-styled in the
@@ -3563,7 +3528,7 @@ This universal selector we just wrote will apply these styles to every
 element in our project. So, let\'s take a look at the results. First
 save the stylesheet and then refresh the page in the browser:
 
-![](./images/media/image58.jpg){width="5.022588582677165in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image58.jpg){width="5.022588582677165in"
 height="2.504032152230971in"}
 
 As we can see, the browser has removed all of the padding and margin
@@ -3598,7 +3563,7 @@ background-color: lightblue;
 
 So, if we save our style sheet and refresh our preview:
 
-![](./images/media/image59.jpg){width="4.207786526684164in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image59.jpg){width="4.207786526684164in"
 height="3.75in"}
 
 We can see how the selector targets every paragraph on the page and
@@ -3615,7 +3580,7 @@ background-color: orange;
 
 Let's save the stylesheet and refresh our view in the browser:
 
-![](./images/media/image60.jpg){width="4.2461537620297465in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image60.jpg){width="4.2461537620297465in"
 height="3.9218088363954506in"}
 
 Each set of tags represents an element on the page and we\'re able to
@@ -3684,7 +3649,7 @@ What the above style does is set the universal color of the text for all
 elements on the page to a nice shade of gray. Let\'s go ahead and save
 our style sheet, and then switch over to our browser preview:
 
-![](./images/media/image61.jpg){width="4.220261373578302in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image61.jpg){width="4.220261373578302in"
 height="4.625in"}
 
 The *body*, *header* and heading type selectors we just wrote, match
@@ -3723,7 +3688,7 @@ ID attribute with the value primary-content. So, if we save our style
 sheet and switch to the browser preview, when we refresh the page we
 don\'t see that red border anywhere on the page just yet:
 
-![](./images/media/image62.jpg){width="3.9829724409448817in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image62.jpg){width="3.9829724409448817in"
 height="4.392307524059492in"}
 
 As you start out creating web pages with CSS you often find yourself in
@@ -3744,7 +3709,7 @@ ID name *primary-content*, which indicates that very clearly. Let's save
 our index.html file and take a look at it again in the browser preview
 and refresh the screen:
 
-![](./images/media/image63.jpg){width="4.8711537620297465in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image63.jpg){width="4.8711537620297465in"
 height="1.7688746719160104in"}
 
 As you can see from the screenshot, there\'s a red border around the
@@ -3784,7 +3749,7 @@ border-bottom: solid 10px orange;
 Let's now save our stylesheet and then switch over to the browser view
 and click on refresh:
 
-![](./images/media/image64.jpg){width="5.121875546806649in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image64.jpg){width="5.121875546806649in"
 height="2.0in"}
 
 We've given our footer the same top and bottom padding to give this
@@ -3816,7 +3781,7 @@ So now our selector is a class and if we save our style sheet and take a
 look at it in the browser preview, we can see that the red border is no
 longer there:
 
-![](./images/media/image65.jpg){width="4.6211537620297465in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image65.jpg){width="4.6211537620297465in"
 height="2.7097779965004376in"}
 
 That's because class selectors only target elements with a matching
@@ -3832,7 +3797,7 @@ throughout a page. Remember, we\'re not allowed to do that with IDs. Now
 if we save the index.html file and refresh the browser, we should now
 see the red border again around the primary content div:
 
-![](./images/media/image66.jpg){width="5.224622703412074in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image66.jpg){width="5.224622703412074in"
 height="2.375in"}
 
 So, if we give another element in our HTML file the class primary
@@ -3847,7 +3812,7 @@ class:
 When we save our *index.html* file and refresh the page, we see that
 both divs now have that red border applied:
 
-![](./images/media/image67.jpg){width="4.903114610673666in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image67.jpg){width="4.903114610673666in"
 height="3.5692311898512687in"}
 
 Like with IDs, naming the class is up to us and we should also give them
@@ -3885,7 +3850,7 @@ background-color: orange;
 So, if we save our style sheet and take a look at it once again in the
 browser preview, we can see that nothing really changes:
 
-![](./images/media/image68.jpg){width="5.763888888888889in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image68.jpg){width="5.763888888888889in"
 height="1.1611111111111112in"}
 
 The header styles are still the same. We\'re just targeting with a class
@@ -3905,7 +3870,7 @@ text-align: center;
 
 So, now when we save our CSS file and take a look at it in the browser:
 
-![](./images/media/image69.jpg){width="5.763888888888889in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image69.jpg){width="5.763888888888889in"
 height="2.4458333333333333in"}
 
 We can see how that center aligns our text nicely inside that primary
@@ -3929,7 +3894,7 @@ this class selector is going to give the secondary content div a solid
 lightgray top border, then you\'re on the right track! So, let\'s take a
 look. We\'ll save our *style.css* file and when we refresh the browser:
 
-![](./images/media/image70.jpg){width="4.3711537620297465in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image70.jpg){width="4.3711537620297465in"
 height="2.1776771653543308in"}
 
 That\'s exactly what happens. There\'s that light gray solid border
@@ -3988,7 +3953,7 @@ Now that we've added the classes to the elements, let's save our
 *index.html* file and then switch over to the browser and then hit the
 refresh button:
 
-![](./images/media/image71.jpg){width="4.585472440944882in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image71.jpg){width="4.585472440944882in"
 height="3.875in"}
 
 We can see that the border style has been applied to all three elements.
@@ -4027,7 +3992,7 @@ font-size: 26px;
 Now, let's save our stylesheet and preview the changes in the browser by
 clicking refresh:
 
-![](./images/media/image72.jpg){width="4.937403762029747in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image72.jpg){width="4.937403762029747in"
 height="1.4193547681539807in"}
 
 You will notice that the styles we added to the descendent selector are
@@ -4069,7 +4034,7 @@ The above descendent selector targets every unordered list element on
 our page and gives it a background color of tomato. Save your changes in
 the stylesheet then head over to the browser and refresh:
 
-![](./images/media/image73.jpg){width="4.84161854768154in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image73.jpg){width="4.84161854768154in"
 height="2.5923075240594926in"}
 
 We have targeted all the list items on our page and the background for
@@ -4116,7 +4081,7 @@ example, we can add styling to a button only when a user hovers over it
 with the mouse cursor. The following screenshot shows a list of all the
 standard pseudo-classes:
 
-![](./images/media/image74.jpg){width="4.310483377077865in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image74.jpg){width="4.310483377077865in"
 height="4.977830271216098in"}
 
 As you can see, there are quite a few pseudo-classes that we can apply
@@ -4148,7 +4113,7 @@ web page the color orange. So, if we save the style sheet and go back to
 the browser view and refresh, we can see that all of our links now have
 the color orange instead of red:
 
-![](./images/media/image75.jpg){width="4.650474628171478in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image75.jpg){width="4.650474628171478in"
 height="1.3480774278215224in"}
 
 It's important to note that the link pseudo-class only works on anchor
@@ -4158,7 +4123,7 @@ notice that when we click on any of the links and go back to the page,
 you will see that the color of the clicked link takes on the default
 browser style of purple:
 
-![](./images/media/image76.jpg){width="4.6211537620297465in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image76.jpg){width="4.6211537620297465in"
 height="1.0762281277340333in"}
 
 We can also change this color to anything that we want using the visited
@@ -4177,7 +4142,7 @@ this time we are adding the pseudo class visited and applying the color
 lightblue for visited links. Now when you click on any of the links, it
 immediately takes on the style that we specified:
 
-![](./images/media/image77.jpg){width="4.750866141732283in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image77.jpg){width="4.750866141732283in"
 height="1.0692311898512685in"}
 
 ### Hover pseudo class 
@@ -4206,7 +4171,7 @@ the link element a background color of forest green and a color of
 white. To see how this looks, save the stylesheet then switch to the
 browser, refresh the page and make sure to hover over a link:
 
-![](./images/media/image78.jpg){width="3.803846237970254in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image78.jpg){width="3.803846237970254in"
 height="1.8472353455818022in"}
 
 As you can see from the image above, whenever we hover over a link
@@ -4226,7 +4191,7 @@ color: white;
 So now if we save the changes in our stylesheet and switch back to the
 browser and do exactly what we did before with the anchor element:
 
-![](./images/media/image79.jpg){width="4.8711537620297465in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image79.jpg){width="4.8711537620297465in"
 height="1.2189621609798775in"}
 
 The hover pseudo class is now being applied to all the paragraph
@@ -4376,7 +4341,7 @@ With this pixel value, the header will always take up 960 pixels of the
 screen. Let's save our stylesheet and go back to the browser and refresh
 the page to view how this looks:
 
-![](./images/media/image80.jpg){width="5.576131889763779in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image80.jpg){width="5.576131889763779in"
 height="0.9788462379702537in"}
 
 As you can see from the screenshot, the header no longer takes up the
@@ -4415,7 +4380,7 @@ that our header is only taking up half of the width of the page --
 regardless if we resize the window or not, it will always take up half
 the width:
 
-![](./images/media/image81.jpg){width="5.0635017497812775in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image81.jpg){width="5.0635017497812775in"
 height="0.8461537620297462in"}
 
 Obviously, the header needs to take the entire available width of the
@@ -4444,7 +4409,7 @@ width: 60%;
 
 Now when we save our style sheet and switch to the browser:
 
-![](./images/media/image82.jpg){width="5.3711537620297465in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image82.jpg){width="5.3711537620297465in"
 height="2.9819608486439195in"}
 
 Now the two content sections only take up 60% of the available page
@@ -4483,7 +4448,7 @@ You will notice that the size of the title has increased. This is
 because the value *3em* is making it three times that body font size
 context:
 
-![](./images/media/image83.jpg){width="5.159574584426947in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image83.jpg){width="5.159574584426947in"
 height="1.0480774278215224in"}
 
 At the moment, the size of the font size is 48 in pixels because the
@@ -4504,7 +4469,7 @@ font-size: 0.5em;
 When we refresh the browser, we can see that this has changed the size
 of the text again:
 
-![](./images/media/image84.jpg){width="4.247922134733158in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image84.jpg){width="4.247922134733158in"
 height="0.7923075240594926in"}
 
 You'll notice that the size of the title has now decreased. The title's
@@ -4542,7 +4507,7 @@ font-size: 1.625em;
 Now when we save our stylesheet and take a look at our page, we can see
 that the title is now exactly the size that we want it to be:
 
-![](./images/media/image85.jpg){width="4.386536526684164in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image85.jpg){width="4.386536526684164in"
 height="0.9in"}
 
 We now have a simple formula for converting pixel values to ems, so we
@@ -4591,7 +4556,7 @@ the *h1* element. Now that we have set the font size for the main header
 class, let's save our stylesheet and switch to the browser to see if
 anything has changed:
 
-![](./images/media/image86.jpg){width="4.698333333333333in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image86.jpg){width="4.698333333333333in"
 height="1.2923075240594926in"}
 
 Notice the font size for the title and the *h1* scale up based on the
@@ -4646,7 +4611,7 @@ color: white;
 So, if we save our stylesheet and switch to the browser, we should see
 how this affects our elements:
 
-![](./images/media/image87.jpg){width="4.282638888888889in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image87.jpg){width="4.282638888888889in"
 height="0.8769225721784777in"}
 
 You will notice how the sizes of the title and the *h1* are now back to
@@ -4714,7 +4679,7 @@ width: 100%;
 
 Then save the stylesheet and view the header background in the browser:
 
-![](./images/media/image88.jpg){width="4.705215441819773in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image88.jpg){width="4.705215441819773in"
 height="1.75in"}
 
 As you can see from the screenshot above, the hex value that we used
@@ -4770,7 +4735,7 @@ border-bottom: solid 10px \#ffa949;
 Now save the stylesheet and switch over to the browser to view how the
 footer border bottom color looks like:
 
-![](./images/media/image89.jpg){width="4.4961537620297465in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image89.jpg){width="4.4961537620297465in"
 height="1.301175634295713in"}
 
 The final method for applying color values uses what's called a
@@ -4807,7 +4772,7 @@ color: rgb(255, 169, 73, 0.4);
 Now let's save our stylesheet and preview the result in the browser. We
 can see that the links are now transparent when you hover over them:
 
-![](./images/media/image90.jpg){width="3.0930227471566054in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image90.jpg){width="3.0930227471566054in"
 height="1.0in"}
 
 ### Text styles 
@@ -4841,7 +4806,7 @@ text-align: center;
 Now, when we save the stylesheet and refresh the browser, we see that
 the text inside the header is now center aligned:
 
-![](./images/media/image91.jpg){width="4.233871391076115in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image91.jpg){width="4.233871391076115in"
 height="1.8629035433070866in"}
 
 The default for the text-align property is on the left side, but it can
@@ -4852,9 +4817,6 @@ paragraph an equal width, just like a magazine or book alignment.
 Earlier, we set the primary and secondary width of our containers to 60%
 and this is why we can see the large whitespace area to the right side.
 We will be fixing this very soon.
-
-**\
-**
 
 ### Text Transform 
 
@@ -4880,7 +4842,7 @@ see the way in which the value transforms the text into uppercase
 letters, despite the fact that we didn't input it directly through the
 keyboard in the HTML:
 
-![](./images/media/image92.jpg){width="4.052419072615923in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image92.jpg){width="4.052419072615923in"
 height="0.8246434820647419in"}
 
 We could likewise utilize the values *lowercase* and *capitalize*. Now,
@@ -4904,7 +4866,7 @@ Now, once our style sheet is saved, we can refresh the browser. We
 should be able to see the way in which the underlines in our links have
 now disappeared.
 
-![](./images/media/image93.jpg){width="3.0925929571303588in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image93.jpg){width="3.0925929571303588in"
 height="1.5in"}
 
 However, we can likewise utilize the text-decoration property on just
@@ -4924,7 +4886,7 @@ text-decoration: underline;
 Let's save this and we should be able to see the way the underline is
 included beneath the heading text:
 
-![](./images/media/image94.jpg){width="4.530294181977252in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image94.jpg){width="4.530294181977252in"
 height="1.1653226159230097in"}
 
 The *font-weight* property gives us a chance to set the weight style of
@@ -4964,7 +4926,7 @@ font-weight: normal;
 Now, when we save our stylesheet and refresh the browser, we can see
 that the two headings are no longer bold:
 
-![](./images/media/image95.jpg){width="4.145580708661417in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image95.jpg){width="4.145580708661417in"
 height="1.7096773840769903in"}
 
 The *font-weight* property also accepts two other keyword values. Other
@@ -5010,7 +4972,7 @@ font-family: sans-serif;
 Now, we can save our stylesheet, refresh our page, and then we can see
 that all the page content has changed to the *sans-serif* font:
 
-![](./images/media/image96.jpg){width="4.428827646544182in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image96.jpg){width="4.428827646544182in"
 height="1.8104833770778652in"}
 
 Compared to serif fonts, there is no finishing ornamentation or strokes
@@ -5085,7 +5047,7 @@ To see how this affects our content, let's save our stylesheet and
 refresh the browser -- we should see that all the text content on the
 page is italicized:
 
-![](./images/media/image97.jpg){width="4.462364391951006in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image97.jpg){width="4.462364391951006in"
 height="2.3870964566929134in"}
 
 We can likewise set the value to oblique. Oblique is not often used;
@@ -5123,7 +5085,7 @@ font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;
 
 Let' save our stylesheet and see how this looks in the browser:
 
-![](./images/media/image98.jpg){width="4.995967847769029in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image98.jpg){width="4.995967847769029in"
 height="1.2718646106736657in"}
 
 We can see the way in which every element on the page acquires that line
@@ -5211,7 +5173,7 @@ box is made of particular dimensions and takes up a particular measure
 of space. The space the box occupies depends on the content in it, as
 well as the margins and the padding borders around the content:
 
-![](./images/media/image99.png){width="3.7933333333333334in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image99.png){width="3.7933333333333334in"
 height="2.486666666666667in"}
 
 So, the box model is what dictates the amount of space each element has
@@ -5231,7 +5193,7 @@ outline: 2px solid red;
 This will add an outline to all the elements on the page and it will let
 us easily visualize each of the elements on the page as a box:
 
-![](./images/media/image100.jpg){width="4.912073490813648in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image100.jpg){width="4.912073490813648in"
 height="3.5in"}
 
 Each element is designed with a box or rectangle. Now, to effectively
@@ -5259,7 +5221,7 @@ borders, and padding interact with one another to form a box since it's
 important to understand. The box model is designed with four distinct
 parts.
 
-![](./images/media/image101.gif){width="2.75in" height="2.75in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image101.gif){width="2.75in" height="2.75in"}
 
 The core component and innermost area of the box is the content area.
 This is the area in which the actual content, such as image or text of
@@ -5280,13 +5242,13 @@ Google Chrome dev tool provides a really clear view of the box model for
 each element on the page. If you click on **View** \> **Developer** \>
 **Developer Tools**:
 
-![](./images/media/image102.jpg){width="4.285325896762904in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image102.jpg){width="4.285325896762904in"
 height="2.375in"}
 
 It will display the chrome developer tool panel at the bottom of the
 page:
 
-![](./images/media/image103.jpg){width="5.763888888888889in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image103.jpg){width="5.763888888888889in"
 height="1.476388888888889in"}
 
 Once you have the dev tools panel open, in the elements tab on the left,
@@ -5294,14 +5256,14 @@ open up the header element and click on the *h1* element. This will be
 the element selected in the chrome dev tool and you will see the *h1*
 highlighted on the page:
 
-![](./images/media/image104.jpg){width="5.763888888888889in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image104.jpg){width="5.763888888888889in"
 height="3.252083333333333in"}
 
 Once the *h1* element is selected, you can increase the width of the
 styles tab on the right and scroll all the way down until you see the
 box model for the *h1*:
 
-![](./images/media/image105.jpg){width="4.755818022747157in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image105.jpg){width="4.755818022747157in"
 height="3.25in"}
 
 As you can see from the above screenshot, the *h1* element's box model
@@ -5357,7 +5319,7 @@ MAC or control forward slash on Windows to uncomment it. Then simply
 save the *index.html* file and we can now see that the content area is
 now displayed:
 
-![](./images/media/image106.jpg){width="5.0371686351706035in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image106.jpg){width="5.0371686351706035in"
 height="1.552419072615923in"}
 
 Since we now have the content area of the box, we can now include the
@@ -5395,7 +5357,7 @@ affects our *buildings* div, let's save our style sheet and then refresh
 the browser - we will be able to see the padded space around the content
 area:
 
-![](./images/media/image107.jpg){width="4.974933289588801in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image107.jpg){width="4.974933289588801in"
 height="2.3951607611548558in"}
 
 The second way that we can add the same padding is using the shorthand
@@ -5454,7 +5416,7 @@ final value is applied to the bottom. To see how this looks, add this
 shorthand notation, save the file and refresh the browser -- you will
 notice that the bottom side has a larger padding area than the top:
 
-![](./images/media/image108.jpg){width="4.957226596675415in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image108.jpg){width="4.957226596675415in"
 height="2.318548775153106in"}
 
 It's important to understand the order of the shorthand values, as the
@@ -5500,7 +5462,7 @@ Let's save our stylesheet and then switch to the browser window and
 refresh. We should see how the padding on each side of the div adjusts
 to the buildings container's width:
 
-![](./images/media/image109.jpg){width="4.99759186351706in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image109.jpg){width="4.99759186351706in"
 height="3.125in"}
 
 ### Borders
@@ -5572,7 +5534,7 @@ Remember that the border color can be any keyword value, RGB value, or a
 hexadecimal value. To see how this looks, let's save our stylesheet and
 then refresh the browser:
 
-![](./images/media/image110.jpg){width="4.703744531933508in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image110.jpg){width="4.703744531933508in"
 height="3.0120964566929134in"}
 
 From the screenshot above, we can see that our buildings div now has an
@@ -5599,7 +5561,7 @@ border-color: \#ffa949;
 Now, save the file and look at it in the browser. Our div now has a
 dashed border style:
 
-![](./images/media/image111.jpg){width="4.514136045494313in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image111.jpg){width="4.514136045494313in"
 height="2.8830643044619424in"}
 
 For our div, we want to have a solid border style, instead of dotted and
@@ -5625,7 +5587,7 @@ border-color: \#ffa949;
 Like before, let's save and view how our buildings div looks with the
 solid border style:
 
-![](./images/media/image112.jpg){width="5.04974956255468in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image112.jpg){width="5.04974956255468in"
 height="3.0967738407699037in"}
 
 In the same way that we used a shorthand notation to add padding to the
@@ -5654,7 +5616,7 @@ border-color: \#ffa949;
 
 As always, let's save the file and preview the result in the browser:
 
-![](./images/media/image113.jpg){width="4.683732502187227in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image113.jpg){width="4.683732502187227in"
 height="3.0201607611548558in"}
 
 You'll notice that the border width for each side is no longer equal.
@@ -5685,7 +5647,7 @@ border-color: \#ffa949;
 When we save and refresh the page, our top and bottom border styles are
 solid, whilst the left and right sides have a border style of dotted:
 
-![](./images/media/image114.jpg){width="4.625in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image114.jpg){width="4.625in"
 height="2.9276804461942256in"}
 
 We can extend this to the border color property as well, so if we wanted
@@ -5715,7 +5677,7 @@ in the browser. You will notice clearly now that the top and bottom
 border color is red and the left and right still have the orange
 hexadecimal color:
 
-![](./images/media/image115.jpg){width="5.275795056867891in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image115.jpg){width="5.275795056867891in"
 height="3.3911286089238843in"}
 
 As I mentioned previously, it's important to remember the order of these
@@ -5742,7 +5704,7 @@ The first color value is for the top border, then the next one is for
 the right border, then the third value, green, will be applied to the
 bottom border and finally the last value is applied to the left border:
 
-![](./images/media/image116.jpg){width="5.105033902012249in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image116.jpg){width="5.105033902012249in"
 height="3.25in"}
 
 In web design, it is rare to see an element that has different border
@@ -5776,7 +5738,7 @@ hexadecimal value. If we now save this and refresh the browser, we will
 get the same result that we did earlier when we had individual
 declarations for the width, style and color:
 
-![](./images/media/image112.jpg){width="4.842741688538933in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image112.jpg){width="4.842741688538933in"
 height="2.9698261154855645in"}
 
 Even though we have used the shorthand declaration for styling the
@@ -5802,7 +5764,7 @@ border-bottom-style: dashed;
 
 The border bottom will now have a dashed border style:
 
-![](./images/media/image117.jpg){width="5.095107174103237in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image117.jpg){width="5.095107174103237in"
 height="3.2620964566929134in"}
 
 We can do the same thing for the border left style, border top style and
@@ -5830,7 +5792,7 @@ border-left-color: green;
 So now if we save and preview the result in the browser, we can see that
 the left border color is now green:
 
-![](./images/media/image118.jpg){width="5.166838363954506in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image118.jpg){width="5.166838363954506in"
 height="3.302419072615923in"}
 
 Now that we have seen the different ways we can style an element using
@@ -5853,7 +5815,7 @@ border-top: 10px solid \#ffa949;
 As you would expect, this only adds a border to the top of the buildings
 div:
 
-![](./images/media/image119.jpg){width="5.017902449693788in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image119.jpg){width="5.017902449693788in"
 height="3.1370964566929134in"}
 
 Before wrapping up the border property, there is one important aspect
@@ -5879,7 +5841,7 @@ If we now save the stylesheet and open the browser and refresh, we can
 see that the color of the top border has taken on the color of the text
 since no color is specified in the declaration:
 
-![](./images/media/image120.jpg){width="4.7510017497812775in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image120.jpg){width="4.7510017497812775in"
 height="3.0in"}
 
 Make sure to set the color back to white and set the color of the border
@@ -5904,7 +5866,7 @@ come across a border property, you will know exactly what it means.
 
 As we saw in the box model, the margin is the outermost part of the box:
 
-![](./images/media/image121.png){width="2.5555555555555554in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image121.png){width="2.5555555555555554in"
 height="2.0277777777777777in"}
 
 In the same way that we can define padding and borders on all four sides
@@ -5966,7 +5928,7 @@ pixels. So, if we save our stylesheet and refresh the browser, we can
 now see that we have given the buildings div some extra breathing space
 from the other elements:
 
-![](./images/media/image122.jpg){width="4.795248250218723in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image122.jpg){width="4.795248250218723in"
 height="3.125in"}
 
 The margins give elements a degree of separation from other elements on
@@ -5978,7 +5940,7 @@ each element's box model parameters on the fly. Since we're using
 Chrome, I will click on the View \> Developer \> Developer Tools -- to
 open the Chrome developer panel at the bottom:
 
-![](./images/media/image123.jpg){width="5.763888888888889in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image123.jpg){width="5.763888888888889in"
 height="3.029861111111111in"}
 
 Once you have the Chrome dev tools open, you should see a small
@@ -5988,14 +5950,14 @@ Click on the magnifying glass icon and then select the buildings div on
 our page. Then on the right side of the panel, we can see all the CSS
 properties we've applied to the buildings div:
 
-![](./images/media/image124.jpg){width="5.763888888888889in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image124.jpg){width="5.763888888888889in"
 height="2.975in"}
 
 If you hover your cursor over the right side of the panel where we have
 the CSS styles and scroll down, we can see all the box model parameters
 for the *buildings* div:
 
-![](./images/media/image125.jpg){width="4.875in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image125.jpg){width="4.875in"
 height="2.516205161854768in"}
 
 If you hover over the margin, border, padding or the center of the box,
@@ -6003,7 +5965,7 @@ it will highlight each area in the browser. So, when you hover over the
 center, it highlights the content area in the buildings div in the
 browser:
 
-![](./images/media/image126.jpg){width="5.180247156605424in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image126.jpg){width="5.180247156605424in"
 height="3.125in"}
 
 Likewise, when you hover over the padding, border, or margin areas it
@@ -6055,7 +6017,7 @@ margin-bottom: 0.5em; /\* 26px \*/
 You will notice that the margin has been applied to the bottom side of
 the *h2* box element and it has closed up a little bit:
 
-![](./images/media/image127.jpg){width="4.928097112860892in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image127.jpg){width="4.928097112860892in"
 height="1.4677416885389327in"}
 
 You will also notice that there is a margin top style applied to our
@@ -6064,7 +6026,7 @@ This margin top styling for the *h2* element is actually coming from the
 browser's user agent styling. If you look closely at the styles tab, you
 will be able to see this:
 
-![](./images/media/image128.jpg){width="5.317824803149606in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image128.jpg){width="5.317824803149606in"
 height="1.9233869203849518in"}
 
 For the *h3* on our page, we're going to do the same thing. Back in the
@@ -6092,11 +6054,8 @@ Now when we save our stylesheet and preview the change in the browser
 and scroll down to the *h2* element, we can see that it now has a bottom
 margin applied:
 
-![](./images/media/image129.jpg){width="2.45121719160105in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image129.jpg){width="2.45121719160105in"
 height="1.7943547681539807in"}
-
-**\
-**
 
 ### Negative margin values
 
@@ -6123,7 +6082,7 @@ margin: -50px 0 60px;
 Now, let's save the stylesheet and see how this negative value affects
 the buildings div on our page:
 
-![](./images/media/image130.jpg){width="5.06448709536308in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image130.jpg){width="5.06448709536308in"
 height="2.326613079615048in"}
 
 When we use negative values for margins, it pulls any surrounding
@@ -6178,7 +6137,7 @@ By using the value auto, the browser will automatically calculate the
 margins for each side and this means all the margins are set to be
 equal:
 
-![](./images/media/image131.jpg){width="5.763888888888889in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image131.jpg){width="5.763888888888889in"
 height="3.2180555555555554in"}
 
 Both divs are now perfectly centred on the page, and this means that
@@ -6215,7 +6174,7 @@ display: none;
 When we refresh the browser window, we will notice that our buildings
 div is no longer there:
 
-![](./images/media/image132.jpg){width="4.869581146106737in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image132.jpg){width="4.869581146106737in"
 height="3.2338713910761157in"}
 
 Our buildings div has disappeared from the page and the rest of the page
@@ -6261,7 +6220,7 @@ we save the stylesheet and refresh the browser, we can see that the
 previously inline anchor elements are now taking up the entire available
 width:
 
-![](./images/media/image133.jpg){width="5.408054461942257in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image133.jpg){width="5.408054461942257in"
 height="1.2620964566929134in"}
 
 As you can see, each line is on its own with a line before it and a line
@@ -6285,7 +6244,7 @@ background-color: tomato;
 When we save the stylesheet and refresh the browser, we can see clearly
 that they are now block level elements:
 
-![](./images/media/image134.jpg){width="5.763888888888889in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image134.jpg){width="5.763888888888889in"
 height="1.2180555555555554in"}
 
 Going forward, we don't want to have our anchor links displayed as block
@@ -6327,7 +6286,7 @@ display: inline;
 Inline elements stay with the rest of the content. Save the stylesheet
 and see how this affects our *h1* element:
 
-![](./images/media/image135.jpg){width="4.25in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image135.jpg){width="4.25in"
 height="0.9181025809273841in"}
 
 You will immediately notice how the *h1* now wraps to the same line that
@@ -6366,7 +6325,7 @@ display: inline;
 Now when we save the stylesheet, notice how all the list items are now
 all on one line, or inline with each other:
 
-![](./images/media/image136.jpg){width="4.931527777777778in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image136.jpg){width="4.931527777777778in"
 height="1.4919356955380578in"}
 
 Now if we wanted to give our list items a little bit of breathing space,
@@ -6387,7 +6346,7 @@ When we save the changes we made and view the result in the browser, you
 will notice that our list elements are now starting to look more like a
 navigation menu:
 
-![](./images/media/image137.jpg){width="4.926149387576553in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image137.jpg){width="4.926149387576553in"
 height="1.0564512248468942in"}
 
 One thing to keep in mind when using inline as the value for the display
@@ -6409,7 +6368,7 @@ margin: 80px 0;
 When you save the stylesheet and take a look at the browser window, you
 will notice that nothing really changes and we don't see those margins:
 
-![](./images/media/image137.jpg){width="5.125in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image137.jpg){width="5.125in"
 height="1.099096675415573in"}
 
 If we want to apply margins to our list items, we'll need to use another
@@ -6432,7 +6391,7 @@ margin: 80px 0;
 Then, when we save our stylesheet and refresh the browser, we can see
 that the top and bottom margins are now applied to each list item:
 
-![](./images/media/image138.jpg){width="5.468201006124234in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image138.jpg){width="5.468201006124234in"
 height="1.875in"}
 
 There's a lot more we can do with the display property, but what I would
@@ -6492,7 +6451,7 @@ applied. Let\'s take a look at our design. Let\'s save our style sheet,
 and refresh the browser and there we have our nicely styled callout
 links:
 
-![](./images/media/image139.jpg){width="5.005020778652669in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image139.jpg){width="5.005020778652669in"
 height="1.1330643044619422in"}**\
 **
 
@@ -6525,7 +6484,7 @@ files for this section, you will see that we have a very large arrow
 image in our header. This arrow image is actually embedded as a Scalar
 Vector Graphic or SVG:
 
-![](./images/media/image140.jpg){width="3.172689195100612in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image140.jpg){width="3.172689195100612in"
 height="2.4838713910761157in"}
 
 As you can see, the image is very large and we're going to need to scale
@@ -6551,7 +6510,7 @@ width: 50px;
 Now we can save our stylesheet, and go back to the browser window and
 refresh the page:
 
-![](./images/media/image141.jpg){width="4.835135608048994in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image141.jpg){width="4.835135608048994in"
 height="2.629032152230971in"}
 
 This is much better. Our arrow image is now scaled down to 50 pixels
@@ -6573,7 +6532,7 @@ height: 850px;
 Now if we save our stylesheet and refresh the page, we can see that our
 header is now taller:
 
-![](./images/media/image142.jpg){width="4.884268372703412in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image142.jpg){width="4.884268372703412in"
 height="1.5in"}
 
 If you're wondering why we need this much height, it is because we will
@@ -6605,7 +6564,7 @@ magnifying glass tool to highlight the header element. You will see that
 the padding top is added to the height of the header element to give us
 a total header height of 1020 pixels:
 
-![](./images/media/image143.jpg){width="4.625in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image143.jpg){width="4.625in"
 height="2.166505905511811in"}
 
 What is actually happening is that the browser calculates the total
@@ -6635,7 +6594,7 @@ margin: auto;
 Then save the stylesheet and preview in the browser by clicking refresh.
 You will now see that our header is exactly 960 pixels wide:
 
-![](./images/media/image144.jpg){width="5.116838363954506in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image144.jpg){width="5.116838363954506in"
 height="2.625in"}
 
 Let's add some padding to the two divs to give them some separation
@@ -6662,7 +6621,7 @@ Save and then preview the changes in the browser using the dev tools.
 You will notice that the total width of the two divs has now increased
 and is actually 1060 pixels wide in total:
 
-![](./images/media/image145.jpg){width="4.5in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image145.jpg){width="4.5in"
 height="2.9754221347331584in"}
 
 The browser has added 100 pixels to the total width of the two divs,
@@ -6720,7 +6679,7 @@ and refresh the page, you will see that the final width of the rendered
 containers is now the actual 960 pixels for each div, even though we
 have a padding applied on the left and right side:
 
-![](./images/media/image146.jpg){width="4.762187226596676in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image146.jpg){width="4.762187226596676in"
 height="3.625in"}
 
 We also want to apply box sizing to all our elements on the page,
@@ -6786,7 +6745,7 @@ If we save our stylesheet and check the browser view, we will see that
 the primary and secondary divs now both take up three quarters of the
 available width:
 
-![](./images/media/image147.jpg){width="5.263101487314086in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image147.jpg){width="5.263101487314086in"
 height="2.8870964566929134in"}
 
 Now, instead of the 960 pixels, the width of the primary and secondary
@@ -6828,7 +6787,7 @@ the two images on our page at times are too wide for their containing
 div elements. For example, when we reduce the width of the browser, the
 images break out of their content divs:
 
-![](./images/media/image148.jpg){width="4.416434820647419in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image148.jpg){width="4.416434820647419in"
 height="4.032258311461067in"}
 
 To prevent this from happening, we can use the max width property again.
@@ -6847,7 +6806,7 @@ This will make the images become fluid and proportionally adjust
 according to the width of the containing div, and you will notice that
 the images no longer break out from their containers:
 
-![](./images/media/image149.jpg){width="3.75in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image149.jpg){width="3.75in"
 height="3.678614391951006in"}
 
 The max width property is a really handy feature for creating responsive
@@ -6868,7 +6827,7 @@ Now when we save our stylesheet and look at the browser, we now have a
 degree of separation between the images and the content that follows
 beneath:
 
-![](./images/media/image150.jpg){width="4.435165135608049in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image150.jpg){width="4.435165135608049in"
 height="3.375in"}
 
 ### Backgrounds: color and images
@@ -6944,7 +6903,7 @@ searching for the image in the *img* folder. Now when we save our
 stylesheet, we can immediately see that this path works as we can see
 our image:
 
-![](./images/media/image151.jpg){width="5.019632545931758in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image151.jpg){width="5.019632545931758in"
 height="1.9153226159230097in"}
 
 As you can see, by default, a background image is repeated or tiled both
@@ -6970,7 +6929,7 @@ background-repeat: repeat-x;
 
 This will set the image to repeat horizontally on the x-axis:
 
-![](./images/media/image152.jpg){width="5.096146106736658in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image152.jpg){width="5.096146106736658in"
 height="1.7983869203849518in"}
 
 Ideally, we don't want our background images to repeat, and the
@@ -6995,7 +6954,7 @@ background-repeat: no-repeat;
 So now if we save the stylesheet and refresh the browser, you will
 notice that our background image is no longer repeated:
 
-![](./images/media/image153.jpg){width="4.625in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image153.jpg){width="4.625in"
 height="1.9101804461942258in"}
 
 Now that our image is no longer repeated, it is best practice to set a
@@ -7008,7 +6967,7 @@ we'll keep the orange hexadecimal value as our background color.
 By default, a background image's initial position is the top left hand
 corner of the containing element, as we can see in the main header:
 
-![](./images/media/image153.jpg){width="4.5in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image153.jpg){width="4.5in"
 height="1.8585542432195976in"}
 
 CSS lets us control the background position of an image with the
@@ -7042,7 +7001,7 @@ background-position: center;
 So now if we save the stylesheet and refresh the browser, you will
 notice that our background image is now centered:
 
-![](./images/media/image154.jpg){width="4.518106955380578in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image154.jpg){width="4.518106955380578in"
 height="2.375in"}
 
 Go back to our stylesheet, and set the second value to the keyword
@@ -7068,7 +7027,7 @@ Once you save the stylesheet, you will notice that our image is now
 positioned at the top of the containing div, but still centered
 horizontally:
 
-![](./images/media/image155.jpg){width="4.661068460192476in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image155.jpg){width="4.661068460192476in"
 height="2.370967847769029in"}
 
 We can also set the second value to bottom, and this will position our
@@ -7098,7 +7057,7 @@ When we save our stylesheet and look at the browser, we can see that our
 image is now positioned 20% to the left side of the header and it's
 still vertically centered:
 
-![](./images/media/image156.jpg){width="4.3049146981627295in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image156.jpg){width="4.3049146981627295in"
 height="2.197580927384077in"}
 
 Now that we have seen how we can apply background positioning on our
@@ -7124,7 +7083,7 @@ background-position: center center;
 This positions our background image in the center both horizontally and
 vertically:
 
-![](./images/media/image154.jpg){width="4.375in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image154.jpg){width="4.375in"
 height="2.299773622047244in"}
 
 You will notice that our background image is not filling the entire
@@ -7158,7 +7117,7 @@ proportionally to the size of the main header if it is resized. So, to
 see how our background image now looks, save the stylesheet and refresh
 the browser:
 
-![](./images/media/image157.jpg){width="5.1641382327209095in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image157.jpg){width="5.1641382327209095in"
 height="2.625in"}
 
 The background size property with the value cover is a handy feature
@@ -7210,7 +7169,7 @@ background-size: cover;
 So, now when we save our style sheet, and refresh the page, everything
 should still look exactly the same:
 
-![](./images/media/image157.jpg){width="5.187935258092739in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image157.jpg){width="5.187935258092739in"
 height="2.6370964566929134in"}
 
 ### Floats 
@@ -7229,7 +7188,7 @@ our *index.html* file, the secondary content div contains two nested
 divs and each of them contain an image, a heading element, a paragraph
 and a list. Currently, the two nested divs appear stacked:
 
-![](./images/media/image158.jpg){width="2.3104833770778654in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image158.jpg){width="2.3104833770778654in"
 height="3.6372014435695537in"}
 
 What we want to do is lay them out side by side in one row, and we're
@@ -7313,7 +7272,7 @@ So now when we save our stylesheet and refresh the page, we can see that
 each of the two divs now only take up 46.5% of the parent container
 width:
 
-![](./images/media/image159.jpg){width="4.428779527559055in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image159.jpg){width="4.428779527559055in"
 height="2.375in"}
 
 Now that we have set the width for each of the nested divs inside our
@@ -7334,7 +7293,7 @@ float: right;
 
 Then save the stylesheet and refresh the browser:
 
-![](./images/media/image160.jpg){width="4.202227690288714in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image160.jpg){width="4.202227690288714in"
 height="3.5in"}
 
 You will see from the screenshot above that the div is now positioned
@@ -7361,7 +7320,7 @@ how the resort *div* is now also taken out of the normal page flow and
 placed along the left side of its container with both divs now
 positioned on the same line:
 
-![](./images/media/image161.jpg){width="4.375in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image161.jpg){width="4.375in"
 height="2.3198042432195973in"}
 
 The secondary content div no longer expands to completely surround the
@@ -7399,7 +7358,7 @@ overflow: auto;
 Once you've added the property, save the stylesheet and refresh the
 browser. You will notice that our secondary div no longer collapses:
 
-![](./images/media/image162.jpg){width="4.548318022747156in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image162.jpg){width="4.548318022747156in"
 height="3.072580927384077in"}
 
 This solution works effectively for clearing floats, but it isn't the
@@ -7459,7 +7418,7 @@ the browser, and you will notice that this fixes the issue with the
 floated elements on our page nicely and it forces the secondary content
 div to contain our columns without collapsing:
 
-![](./images/media/image162.jpg){width="4.125in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image162.jpg){width="4.125in"
 height="2.7866119860017498in"}
 
 Any time we need a containing element cleared, we simply need to give
@@ -7484,7 +7443,7 @@ float: right;
 When we look at our layout once again, and refresh, notice how the order
 of our columns is now reversed:
 
-![](./images/media/image163.jpg){width="4.761160323709536in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image163.jpg){width="4.761160323709536in"
 height="2.75in"}
 
 ### Lists
@@ -7515,7 +7474,7 @@ list-style: square;
 Now, when we save our stylesheet and refresh the browser, you will
 notice how our unordered list now has square markers:
 
-![](./images/media/image164.jpg){width="4.281446850393701in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image164.jpg){width="4.281446850393701in"
 height="2.620967847769029in"}
 
 The list style property can accept a range of values from disk, square,
@@ -7536,7 +7495,7 @@ list-style: none;
 When you save and refresh the browser, you will see that the list
 markers have been removed:
 
-![](./images/media/image165.jpg){width="3.586299212598425in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image165.jpg){width="3.586299212598425in"
 height="2.197580927384077in"}
 
 Going forward, we want to have the default disk style in our design. We
@@ -7554,7 +7513,7 @@ list-style: decimal-leading-zero;
 So now when we save the stylesheet and refresh the browser, you will
 notice how our ordered list items now have a zero before each number:
 
-![](./images/media/image166.jpg){width="3.4657874015748034in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image166.jpg){width="3.4657874015748034in"
 height="2.1370964566929134in"}
 
 We\'re also able to set whether or not we want the list markers to
@@ -7571,7 +7530,7 @@ border: 1px solid black;
 Now when we save our stylesheet and look at the browser, it displays the
 list markers outside the list items:
 
-![](./images/media/image167.jpg){width="5.387096456692913in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image167.jpg){width="5.387096456692913in"
 height="1.9601246719160106in"}
 
 We can also control the position of the list style with the list style
@@ -7588,13 +7547,13 @@ list-style-position: inside;
 Now when we save and look at the layout once again, you will now see
 that our list markers are inside the content flow of our list:
 
-![](./images/media/image168.jpg){width="4.814694881889764in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image168.jpg){width="4.814694881889764in"
 height="1.899194006999125in"}
 
 By default, lists are indented into the page with left padding and are
 not aligned with the rest of the content:
 
-![](./images/media/image169.jpg){width="4.625in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image169.jpg){width="4.625in"
 height="1.7173797025371829in"}
 
 However, if we wanted to remove the indented space so that our list
@@ -7614,7 +7573,7 @@ padding-left: 0;
 Save the stylesheet and refresh the browser, notice how the lists are
 now left aligned with the rest of the content:
 
-![](./images/media/image170.jpg){width="5.120745844269466in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image170.jpg){width="5.120745844269466in"
 height="1.8064512248468942in"}
 
 Going forward, we want to keep the default list position declaration and
@@ -7632,7 +7591,7 @@ margin: 30px 0;
 This gives a bit of breathing room to our ordered and unordered lists on
 the page:
 
-![](./images/media/image171.jpg){width="5.102119422572178in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image171.jpg){width="5.102119422572178in"
 height="1.8951607611548555in"}
 
 We also want to increase the vertical gaps between the list items
@@ -7650,7 +7609,7 @@ So now when we save our stylesheet, we can see that we have removed the
 borders and now there is 10-pixel vertical spacing between each list
 item and this looks much better:
 
-![](./images/media/image172.jpg){width="5.362915573053368in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image172.jpg){width="5.362915573053368in"
 height="1.927419072615923in"}
 
 Fundamental Concepts 
