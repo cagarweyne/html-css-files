@@ -3485,8 +3485,7 @@ our style sheet ready to go, and it\'s already linked to our HTML file,
 which now contains the rest of the content we\'ll need in our Granada
 landing page website. If you open the *index.html* file in the browser:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image57.jpg){width="4.681451224846894in"
-height="2.6921161417322836in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image57.jpg)
 
 As we can see, the page is once again completely un-styled in the
 browser. So, let\'s open the text editor, and open up *our style.css*
