@@ -26,7 +26,7 @@ linking on the World Wide Web. The anchor tag element takes both an
 opening and closing tag. Let's explore the way you would create a link
 using an anchor tag:
 
-![](./images/media/image14.jpg){width="4.870653980752406in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image14.jpg){width="4.870653980752406in"
 height="1.1745374015748031in"}
 
 The above shows how you would create a link using the anchor
@@ -84,7 +84,7 @@ process for linking to external pages. I have a page with some dummy
 text separated into three sections. If you open the file
 *9a\_hyperlinks.html*:
 
-![](./images/media/image16.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image16.jpg)
 
 I have created three paragraphs that will act as the link for each
 section, so next we will create a link to section 1, 2 and 3. In order
@@ -132,7 +132,7 @@ that act as the text, which will become links:
 
 Let's save the changes and switch to the browser to see the results:
 
-![](./images/media/image17.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image17.jpg)
 
 As you can see from the screenshot above, all the paragraph texts have
 now become links to each respective section. Clicking on each link will
