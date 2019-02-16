@@ -90,7 +90,7 @@ the `<title>` element doesn't actually appear in the main body of
 the document, instead the title appears in the tab or window of the
 browser:
 
-![](./images/media/image3.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image3.jpg)
 
 The closing tag for the `<head>` element comes after closing the
 title tag, and this just closes the corresponding tag that was opened. 
@@ -124,7 +124,7 @@ be able to open the file as a web page in your browser. Once you have
 saved the file, just navigate to its location in your computer and
 double click it to open it should open in your default browser:
 
-![](./images/media/image4.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image4.jpg)
 
 While it may not look exciting, you have just created your first web
 page! HTML is the building blocks of all websites on the web, and
@@ -163,7 +163,7 @@ Then save the file as *comments.html*. When you open the file in the
 browser, you will see that we have a simple web page along with some
 comments:
 
-![](./images/media/image5.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image5.jpg)
 
 As you can see, comments are ignored by the browser and not displayed to
 the users. In most code editors, you can use a keyboard shortcut to add
@@ -209,7 +209,7 @@ from others. However, what you should see is that content of the h1
 should be the largest of the six and as the level goes up, the size of
 the contents should decrease in size:
 
-![](./images/media/image6.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image6.jpg)
 
 Paragraphs
 ----------
@@ -239,7 +239,7 @@ HTML plays an important part in web documents along with      Cascading Style Sh
 
 However, when you view this in the browser, it is formatted differently:
 
-![](./images/media/image7.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image7.jpg)
 
 The browser has clumped together the two paragraphs into one, so the
 visual structure that we see in the code is not what is reflected in the
@@ -270,7 +270,7 @@ tag:
 Now when we save the document and reload the web page in the browser, we
 get our desired effect:
 
-![](./images/media/image8.jpg){width="4.75in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image8.jpg){width="4.75in"
 height="1.912590769903762in"}
 
 We have the same code as before, but only this time we have wrapped our
@@ -316,7 +316,7 @@ first word in our first paragraph:
 ```
 Save your changes and then refresh the browser to see the changes:
 
-![](./images/media/image9.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image9.jpg)
 
 As you can see, the line break has been inserted exactly where we
 specified in the HTML. The line break tag is useful when you want to add
@@ -352,7 +352,7 @@ between the two paragraphs that we currently have:
 Now, let's save this change in our text editor then switch over to the
 browser and see the result:
 
-![](./images/media/image10.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image10.jpg)
 
 A solid horizontal line has now been added to the web page between the
 two paragraphs. You can use this tag to separate different areas of the
@@ -409,7 +409,7 @@ words bold using the *\<**b**\>* tag:
 Save the changes and switch to your browser then refresh to see the
 results:
 
-![](./images/media/image11.jpg){width="4.657688101487314in"
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image11.jpg){width="4.657688101487314in"
 height="2.5in"}
 
 The words *represent* and *emphasis* now stand out as bold. Adding the
@@ -451,7 +451,7 @@ italicize the words, so make sure to nest them inside the opening and
 closing `<h2>` tags. Save and switch over to your browser, and you
 will notice that both the headings are now italicized:
 
-![](./images/media/image12.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image12.jpg)
 
 In the same way that adding a bold tag visually highlights a word,
 adding an `<i>` just italicizes the word without adding any
@@ -468,7 +468,7 @@ line in the document was the `<!DOCTYPE html>`, then the html
 element then the head and so on. The following is a diagram of the
 parent and child relationship of a simple web page:
 
-![](./images/media/image13.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image13.jpg)
 
 The very first element is the `<!DOCTYPE html>`, which specifies
 the version of HTML that the document will be using. The root element is
