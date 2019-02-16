@@ -16,7 +16,8 @@
     "CSS": {
     	"lessons": {
 	 "1_Introduction to CSS": "10_intro-to-css.md",
-	 "2_Basic Selectors": "11_basic-selectors.md"	
+	 "2_Basic Selectors": "11_basic-selectors.md",
+	 "3_Understanding Values and Units": "12_understanding-values-units.md"	
       }
     }	  
   }
