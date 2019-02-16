@@ -69,20 +69,18 @@ and find where we create the style for the main header in the class
 called *main-header*. Let's add a style rule that sets the width of the
 header to 960 pixels wide:
 
+```css
 .main-header {
-
 background-color: orange;
-
 width: 960px;
-
 }
+```
 
 With this pixel value, the header will always take up 960 pixels of the
 screen. Let's save our stylesheet and go back to the browser and refresh
 the page to view how this looks:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image80.jpg){width="5.576131889763779in"
-height="0.9788462379702537in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image80.jpg)
 
 As you can see from the screenshot, the header no longer takes up the
 full browser width, only 960 pixels. The same is true for any CSS
@@ -107,21 +105,19 @@ For our header in the web page, we used a value of 960 pixels. Let's
 change this to a percentage instead and change it to 50%. To do this in
 our code, we simply change the value for the width to 50%:
 
+```css
 .main-header {
-
 background-color: orange;
-
 width: 50%;
-
 }
+```
 
 When we save this and view the result in the browser, you will notice
 that our header is only taking up half of the width of the page --
 regardless if we resize the window or not, it will always take up half
 the width:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image81.jpg){width="5.0635017497812775in"
-height="0.8461537620297462in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image81.jpg)
 
 Obviously, the header needs to take the entire available width of the
 window, since it is acting as our header for the page. So, I will change
@@ -139,18 +135,16 @@ going to group the class names: *primary-content* and
 
 a single style rule for both:
 
+```css
 .primary-content,
-
 .secondary-content {
-
 width: 60%;
-
 }
+```
 
 Now when we save our style sheet and switch to the browser:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image82.jpg){width="5.3711537620297465in"
-height="2.9819608486439195in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image82.jpg)
 
 Now the two content sections only take up 60% of the available page
 width, regardless of the size of the window browser. Later on, in the
@@ -176,41 +170,36 @@ Let's change the title font size, which is currently set to 26 pixels,
 to 3 ems and see what happens. So, change the font size value for the
 title to 3em like this:
 
+```css
 .title {
-
 color: white;
-
 font-size: 3em;
-
 }
+```
 
 You will notice that the size of the title has increased. This is
 because the value *3em* is making it three times that body font size
 context:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image83.jpg){width="5.159574584426947in"
-height="1.0480774278215224in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image83.jpg)
 
 At the moment, the size of the font size is 48 in pixels because the
 value from which the em is getting its size from is 16 pixels. So, if we
 add a font size to the body element and set this to *0.5em*, let' see
 what happens to the size of our title:
 
+```css
 body {
-
 color: \#878787;
-
 margin: 0;
-
 font-size: 0.5em;
-
 }
+```
 
 When we refresh the browser, we can see that this has changed the size
 of the text again:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image84.jpg){width="4.247922134733158in"
-height="0.7923075240594926in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image84.jpg)
 
 You'll notice that the size of the title has now decreased. The title's
 font size value is now relative to the smaller font size of the body,
@@ -218,11 +207,11 @@ and therefore the title size now looks smaller. Going forward, we want
 to keep the body context font size 1em, so make sure you change that to
 1em as the font size:
 
+```css
 body {
-
 font-size: 1em;
-
 }
+```
 
 Now if you refresh your page, you will notice that the size of the title
 is still large. We'll need to define a smaller em value that's
@@ -236,19 +225,17 @@ gives us a value of 1.625.
 Then all we need to do is change current font size from 3em to the
 equivalent of 26 pixels, which is 1.625em:
 
+```css
 .title {
-
 color: white;
-
 font-size: 1.625em;
-
 }
+```
 
 Now when we save our stylesheet and take a look at our page, we can see
 that the title is now exactly the size that we want it to be:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image85.jpg){width="4.386536526684164in"
-height="0.9in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image85.jpg)
 
 We now have a simple formula for converting pixel values to ems, so we
 can now define our *h1* element font sizes as ems instead of pixels. The
@@ -257,13 +244,12 @@ equivalent em value, we just need to divide it by 16 which gives us an
 em based value of 5.625em. So now all we need to do is to change the
 current font size from 90 pixels to 5.625em:
 
+```css
 h1 {
-
 font-size: 5.625em;
-
 color: white;
-
 }
+```
 
 If we save our stylesheet and switch over to the browser, you will
 notice that the font size of the text *Granada Spain* stays exactly the
@@ -279,15 +265,13 @@ effect that happens with nested elements. To understand what I mean by
 this compounding effect, let's look at an example. Let's go back to our
 stylesheet and give the class *main-header* a font size value of 2em:
 
+```css
 .main-header {
-
 background-color:
-
 orange; width: 100%;
-
 font-size: 2em;
-
 }
+```
 
 This means that the main header font size of 2em becomes the new context
 for our title and heading font sizes, because the main header (or the
@@ -296,8 +280,7 @@ the *h1* element. Now that we have set the font size for the main header
 class, let's save our stylesheet and switch to the browser to see if
 anything has changed:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image86.jpg){width="4.698333333333333in"
-height="1.2923075240594926in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image86.jpg)
 
 Notice the font size for the title and the *h1* scale up based on the
 new context of 2em. This is what is meant by compounding effect. What is
@@ -330,29 +313,26 @@ ems, we can use rem units instead. In our stylesheet, we will change the
 *h1* and title font size units to rems instead of ems. Let's start with
 the title font size and change that to 1.625rem:
 
+```css
 .title {
-
 color: white;
-
 font-size: 1.625rem;
-
 }
+```
 
 Let's also change the h1 element from using the em unit to the rem unit:
 
+```css
 h1 {
-
 font-size: 5.625rem;
-
 color: white;
-
 }
+```
 
 So, if we save our stylesheet and switch to the browser, we should see
 how this affects our elements:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image87.jpg){width="4.282638888888889in"
-height="0.8769225721784777in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image87.jpg)
 
 You will notice how the sizes of the title and the *h1* are now back to
 their original size. The font size of our title and *h1* are no longer
@@ -409,18 +389,16 @@ So now we're going to set the background color of the main header using
 the hex value *\#ff0033*, so this is how the style rule should look for
 the *main-header* class:
 
+```css
 .main-header {
-
 background-color: \#ff0033;
-
 width: 100%;
-
 }
+```
 
 Then save the stylesheet and view the header background in the browser:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image88.jpg){width="4.705215441819773in"
-height="1.75in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image88.jpg)
 
 As you can see from the screenshot above, the hex value that we used
 turned the background color red. We're also able to use three-digit
@@ -429,13 +407,12 @@ the red, green and blue hex pairs are the same. This means that we can
 shorten the current hex value and abbreviate each color using just one
 character instead of two identical characters:
 
+```css
 .main-header {
-
 background-color: \#f03;
-
 width: 100%;
-
 }
+```
 
 If you save and preview the result in the browser, you will see that it
 still represents a shade of red. You might be wondering how we come up
@@ -451,32 +428,28 @@ orange as a hex value for our header background. So, we're going to
 change the keyword value, *orange*, to a hex value that represents a
 lighter shade of orange: *\#ffa949*:
 
+```css
 .main-header {
-
-background-color: \#ffa949;
-
+background-color: #ffa949;
 width: 100%;
-
 }
+```
 
 We're also going to give our main footer border the same hex value and
 replace the orange keyword color:
 
-\#main-footer {
-
+```css
+#main-footer {
 padding-top: 60px;
-
 padding-bottom: 60px;
-
-border-bottom: solid 10px \#ffa949;
-
+border-bottom: solid 10px #ffa949;
 }
+```
 
 Now save the stylesheet and switch over to the browser to view how the
 footer border bottom color looks like:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image89.jpg){width="4.4961537620297465in"
-height="1.301175634295713in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image89.jpg)
 
 The final method for applying color values uses what's called a
 functional notation to specify the colors. To see this in action, let's
@@ -485,11 +458,11 @@ we're going to type the letters *rgb* followed by a set of parenthesis,
 and inside these parenthesis, we will write the numbers to represent
 each of the color values separated by a comma:
 
+```css
 a:link {
-
 color: rgb(255, 169, 73);
-
 }
+```
 
 It's important to note that when using the RGB function, the value *255*
 represents the color white and this is the maximum value that we can
@@ -503,17 +476,16 @@ Finally, we will give our links a lighter, transparent shade of orange
 over them. To create a transparent shade of the color, we will add a
 fourth number called alpha to the RGB function and set it to 0.4:
 
+```css
 a:hover {
-
 color: rgb(255, 169, 73, 0.4);
-
 }
+```
 
 Now let's save our stylesheet and preview the result in the browser. We
 can see that the links are now transparent when you hover over them:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image90.jpg){width="3.0930227471566054in"
-height="1.0in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image90.jpg)
 
 ### Text styles 
 
@@ -537,17 +509,16 @@ centers the *primary-content* div. This is located just under the styles
 for the title class. Simply add the *main-header* as the next class
 separated by a comma:
 
+```css
 .primary-content, .main-header {
-
 text-align: center;
-
 }
+```
 
 Now, when we save the stylesheet and refresh the browser, we see that
 the text inside the header is now center aligned:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image91.jpg){width="4.233871391076115in"
-height="1.8629035433070866in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image91.jpg)
 
 The default for the text-align property is on the left side, but it can
 also take other keyword values such as *right*, which should be obvious,
@@ -567,23 +538,20 @@ our stylesheet and scroll up to the *h1* rule and directly beneath the
 color declaration inside the *h1* style rule, we will include a
 *text-transform* property. We'll then use the keyword: *uppercase*:
 
+```css
 h1 {
-
 font-size: 5.625rem; /\* 90px / 16px \*/
-
 color: rgba(255, 255, 255, .5);
-
 text-transform: uppercase;
-
 }
+```
 
 Let's save our style sheet, refresh our browser, and then we can clearly
 see the way in which the value transforms the text into uppercase
 letters, despite the fact that we didn't input it directly through the
 keyboard in the HTML:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image92.jpg){width="4.052419072615923in"
-height="0.8246434820647419in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image92.jpg)
 
 We could likewise utilize the values *lowercase* and *capitalize*. Now,
 simply go ahead and attempt those, so that you can see what they do.
@@ -594,20 +562,18 @@ toward our CSS file and scroll down to where our link styles are, and
 try to give our links rule a *text-decoration* property. Write
 *text-decoration*, and then set the value to the keyword *none*.
 
+```csss
 a:link {
-
 color: rgb(255, 169, 73);
-
 text-decoration: none;
-
 }
+```
 
 Now, once our style sheet is saved, we can refresh the browser. We
 should be able to see the way in which the underlines in our links have
 now disappeared.
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image93.jpg){width="3.0925929571303588in"
-height="1.5in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image93.jpg)
 
 However, we can likewise utilize the text-decoration property on just
 about any of the elements. So, for example, let's scroll up to where we
@@ -615,19 +581,17 @@ have our *h2* rule, and beneath the font size declaration, let's include
 a *text-decoration* property, and now we will set the value to
 *underline*:
 
+```css
 h2 {
-
 font-size: 53px;
-
 text-decoration: underline;
-
 }
+```
 
 Let's save this and we should be able to see the way the underline is
 included beneath the heading text:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image94.jpg){width="4.530294181977252in"
-height="1.1653226159230097in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image94.jpg)
 
 The *font-weight* property gives us a chance to set the weight style of
 our text-content. By default, all the headings are set to the bold
@@ -637,37 +601,32 @@ To do this, let's go back to our stylesheet and locate the style for our
 *h1* rule. We will include a *font-weight* property and then we'll set
 the value to *normal*:
 
+```css
 h1 {
 
 font-size: 5.625rem; /\* 90px / 16px \*/
-
 color: rgba(255, 255, 255, .5);
-
 text-transform: uppercase;
-
 font-weight: normal;
-
 }
+```
 
 I'll go ahead and copy the font property declaration we just typed and
 then paste it right beneath, in the h2 rule after text decoration
 property:
 
+```css
 h2 {
-
 font-size: 53px;
-
 text-decoration: underline;
-
 font-weight: normal;
-
 }
+```
 
 Now, when we save our stylesheet and refresh the browser, we can see
 that the two headings are no longer bold:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image95.jpg){width="4.145580708661417in"
-height="1.7096773840769903in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image95.jpg)
 
 The *font-weight* property also accepts two other keyword values. Other
 than the *bold* and *normal*, it accepts the values *lighter* and
@@ -699,21 +658,18 @@ Let's give ourselves a font family property, right at the top of the
 body rule, right under the font size declaration. We will type
 *font-family*, and then we'll set the value to *sans-serif*:
 
+```css
 body {
-
-color: \#878787; margin: 0;
-
+color: #878787; margin: 0;
 font-size: 1em; /\* 16px \*/
-
 font-family: sans-serif;
-
 }
+```
 
 Now, we can save our stylesheet, refresh our page, and then we can see
 that all the page content has changed to the *sans-serif* font:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image96.jpg){width="4.428827646544182in"
-height="1.8104833770778652in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image96.jpg)
 
 Compared to serif fonts, there is no finishing ornamentation or strokes
 in sans-serif fonts. We'll need to make use of a really particular font
@@ -740,15 +696,13 @@ Let's create a font stack declaration in our stylesheet. Make sure that
 you are in the style rule for the body element and add the following
 font stack as the value for the font family property:
 
+``css
 body {
-
 color: \#878787; margin: 0;
-
-font-size: 1em; /\* 16px \*/
-
-font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;;
-
+font-size: 1em; /* 16px */
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
 }
+```
 
 We have set the first font in the stack to *Helvetica Neue* and then the
 second font in the stack to *Arial*, then with a comma after it, we have
@@ -769,26 +723,21 @@ The font style property can give our text an oblique or italic style. If
 we go back to the body style rule and include a font style property, and
 type *font-style* then set the value to *italic*:
 
+```css
 body {
-
-color: \#878787;
-
+color: #878787;
 margin: 0;
-
-font-size: 1em; /\* 16px \*/
-
-font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;
-
+font-size: 1em; /* 16px */
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-style: italic;
-
 }
+```
 
 To see how this affects our content, let's save our stylesheet and
 refresh the browser -- we should see that all the text content on the
 page is italicized:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image97.jpg){width="4.462364391951006in"
-height="2.3870964566929134in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image97.jpg)
 
 We can likewise set the value to oblique. Oblique is not often used;
 this is usually because many typefaces do not contain an oblique
@@ -809,24 +758,19 @@ of the browser, which is typically too cramped for easy readability. So,
 just before the font family declaration, we will add a line height
 declaration and set the value to 1.5:
 
+```css
 body {
-
 color: \#878787;
-
 margin: 0;
-
 font-size: 1em; /\* 16px \*/
-
 line-height: 1.5;
-
 font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;
-
 }
+```
 
 Let' save our stylesheet and see how this looks in the browser:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image98.jpg){width="4.995967847769029in"
-height="1.2718646106736657in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image98.jpg)
 
 We can see the way in which every element on the page acquires that line
 height and there is now some breathing space between the lines. The
@@ -856,20 +800,15 @@ our stylesheet and locate the *h1* rule and directly beneath the
 *font-weight* declaration, let's ensure the *h1* is given a custom line
 height of *1.3*:
 
+```css
 h1 {
-
 font-size: 5.625rem; /\* 90px/16px \*/
-
 color: rgba(255, 255, 255, 1);
-
 text-transform: uppercase;
-
 font-weight: normal;
-
 line-height: 1.3;
-
 }
-
+```
 We can now save our style sheet and refresh the browser and we will see
 the how it reduces the line spacing that is around our h1. Finally, CSS
 allows us to write a shorthand property, which allows us to compose all
@@ -878,15 +817,13 @@ rule, if we choose to define the font-weight, line-height, font-family,
 and font-size at once, we should be able to ensure it is given the
 property *font*, and then all the values can be listed:
 
+```css
 body {
-
-color: \#878787;
-
+color: #878787;
 margin: 0;
-
-font: 1em/1.5 \"Helvetica Neue\", Helvetica, Arial, sans-serif;
-
+font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+```
 
 When we use the font shorthand property, it's relatively essential to
 recall that the font-family and the font-size must be defined. If they
