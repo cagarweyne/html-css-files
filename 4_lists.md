@@ -38,7 +38,7 @@ directions:
 </html>
 ```
 
-![](./images/media/image18.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image18.jpg)
 
 With ordered lists, you can create a list that is numbered, this means
 that you don't have to explicitly specify each number on the list item.
@@ -89,7 +89,7 @@ different technologies used to create websites on the web:
 Add this to the 10_lists.html file after the ordered lists and see
 the result in the browser:
 
-![](./images/media/image19.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image19.jpg)
 
 Lists are primarily a way of grouping things together, and lists are not
 just to display a series of items. You can use lists to group similar
