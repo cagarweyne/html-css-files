@@ -771,13 +771,13 @@ color: orange;
 }
 ```
 
-Changes the visited links color to lightblue
+/*Changes the visited links color to lightblue*/
 ```css
 a:visited {
 color: lightblue;
 }
 ```
-Hover styles for links
+/*Hover styles for links*/
 ```css
 a:hover {
 background-color: forestgreen;
