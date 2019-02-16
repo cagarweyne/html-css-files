@@ -86,8 +86,7 @@ This universal selector we just wrote will apply these styles to every
 element in our project. So, let\'s take a look at the results. First
 save the stylesheet and then refresh the page in the browser:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image58.jpg){width="5.022588582677165in"
-height="2.504032152230971in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image58.jpg)
 
 As we can see, the browser has removed all of the padding and margin
 that the user agent styling applied. The universal selector is a very
@@ -111,18 +110,16 @@ declaration, we will write the color property followed by a colon and
 set it to *white*. Below that, we\'re going to type background-color and
 we'll set its value to *lightblue*:
 
+```css
 p {
-
 color: white;
-
 background-color: lightblue;
-
 }
+```
 
 So, if we save our style sheet and refresh our preview:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image59.jpg){width="4.207786526684164in"
-height="3.75in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image59.jpg)
 
 We can see how the selector targets every paragraph on the page and
 applies the styles we defined. Like we did previously, if we want to
@@ -130,11 +127,11 @@ target the header element and change its background color, we can target
 the header element by writing *header* as our selector. Let's make the
 header\'s background orange:
 
+```css
 header {
-
 background-color: orange;
-
 }
+```
 
 Let's save the stylesheet and refresh our view in the browser:
 
