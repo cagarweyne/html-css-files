@@ -135,8 +135,7 @@ background-color: orange;
 
 Let's save the stylesheet and refresh our view in the browser:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image60.jpg){width="4.2461537620297465in"
-height="3.9218088363954506in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image60.jpg)
 
 Each set of tags represents an element on the page and we\'re able to
 use any of the HTML tags as selectors in our CSS. Type selectors are
@@ -151,36 +150,34 @@ Next, we're going to style the *h1* element on our page. Right below the
 header rule, I'm going to add a style that will make the font size
 bigger by setting it to 90 pixels and we'll set the color to white:
 
+```css
 h1 {
-
 font-size: 90px;
-
 color: white;
-
 }
+```
 
 Then below our *h1* rule, we\'ll use another type selector to target the
 *h2* elements on the page. I'm going to set the *h2* font-size to 53
 pixels.
 
+```css
 h2 {
-
 font-size: 53px;
-
 }
+```
 
 Then right below our *h2* rule, I'm going to target the *h3* headings on
 the page and set their font-sizes to 20 pixels. I will also add a color
 property value to the *h3* style to make it a lighter shade of black.
 For this, I will use a hexadecimal as the value for the color property:
 
+```css
 h3 {
-
 font-size: 20px;
-
 color: \#48525c;
-
 }
+```
 
 When using hexadecimal values, you need to prepend a pound (or hash)
 symbol in front of the value as you can see in the above style rule.
@@ -192,20 +189,18 @@ organized in reference to our HTML document. I'm going to set the *body*
 color to gray, and again for this, I will make use of another
 hexadecimal value and add a margin with a value of 0:
 
+```css
 body {
-
 color: \#878787;
-
 margin: 0;
-
 }
+```
 
 What the above style does is set the universal color of the text for all
 elements on the page to a nice shade of gray. Let\'s go ahead and save
 our style sheet, and then switch over to our browser preview:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image61.jpg){width="4.220261373578302in"
-height="4.625in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image61.jpg)
 
 The *body*, *header* and heading type selectors we just wrote, match
 their respective elements on the page, and they\'re now styled with
@@ -224,27 +219,28 @@ type selectors we wrote previously, let\'s declare an ID selector by
 writing the pound symbol followed by the ID name. I'm going to call it
 primary-content:
 
-\#primary-content {
+```css
+#primary-content {
 
 }
+```
 
 Then we\'ll follow the selector with our declaration block. I'm going to
 create a border around the primary content by giving it a border size of
 2px, a solid border and a color of red:
 
-\#primary-content {
-
+```css
+#primary-content {
 border: 2px solid red;
-
 }
+```
 
 This ID selector we just wrote will match the html element that has an
 ID attribute with the value primary-content. So, if we save our style
 sheet and switch to the browser preview, when we refresh the page we
 don\'t see that red border anywhere on the page just yet:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image62.jpg){width="3.9829724409448817in"
-height="4.392307524059492in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image62.jpg)
 
 As you start out creating web pages with CSS you often find yourself in
 situations like this, this is perfectly normal. The reason the border is
@@ -255,7 +251,9 @@ of *primary-content*. It should be on around line 12. We'll add an ID
 attribute, then inside the quotation marks, we\'re going to write
 primary-content:
 
-\<div id=\"primary-content\"\>
+```html
+<div id="primary-content">
+```  
 
 The ID names are up to us, but it\'s usually good practice to give them
 meaningful names that explain what they do, and what their purpose is.
@@ -264,8 +262,7 @@ ID name *primary-content*, which indicates that very clearly. Let's save
 our index.html file and take a look at it again in the browser preview
 and refresh the screen:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image63.jpg){width="4.8711537620297465in"
-height="1.7688746719160104in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image63.jpg)
 
 As you can see from the screenshot, there\'s a red border around the
 primary content div element on the page. IDs are unique to the page so
@@ -281,7 +278,9 @@ creating HTML link tags. In the footer element, let's give the footer an
 ID of *main-footer*. So, in the opening footer tag, we\'re going to add
 an ID attribute, and we\'re going to make the id value *main-footer*.
 
-\<footer id=\"main-footer\"\>
+```html
+<footer id="main-footer">
+```
 
 Make sure to save the *index.html* file, and then switch over to our
 style sheet. We\'ll target the main footer element with an ID selector,
@@ -291,21 +290,18 @@ we\'re going to give it a *padding-top* with a value of 60 pixels and a
 give the footer a border on the bottom only, which will be 10 pixels and
 the color orange:
 
-\#main-footer {
-
+```css
+#main-footer {
 padding-top: 60px;
-
 padding-bottom: 60px;
-
 border-bottom: solid 10px orange;
-
 }
+```
 
 Let's now save our stylesheet and then switch over to the browser view
 and click on refresh:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image64.jpg){width="5.121875546806649in"
-height="2.0in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image64.jpg)
 
 We've given our footer the same top and bottom padding to give this
 footer text some breathing room. As you can see with IDs, we\'re
@@ -326,24 +322,25 @@ Let\'s see what happens when we change this primary content ID selector
 to a class selector. To do that, we\'ll replace the pound (or hash) sign
 with a dot:
 
+```css
 .primary-content {
-
 border: 2px solid red;
-
 }
+```
 
 So now our selector is a class and if we save our style sheet and take a
 look at it in the browser preview, we can see that the red border is no
 longer there:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image65.jpg){width="4.6211537620297465in"
-height="2.7097779965004376in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image65.jpg)
 
 That's because class selectors only target elements with a matching
 class attribute. So, we\'ll need to go back to our HTML file and change
 the ID attribute to a class instead on around line 12:
 
-\<div class=\"primary-content\"\>
+```html
+<div class="primary-content">
+```  
 
 Classes let us target more than one element with the same class name. In
 fact, that\'s one of the biggest advantages to using class selectors.
@@ -352,23 +349,23 @@ throughout a page. Remember, we\'re not allowed to do that with IDs. Now
 if we save the index.html file and refresh the browser, we should now
 see the red border again around the primary content div:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image66.jpg){width="5.224622703412074in"
-height="2.375in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image66.jpg)
 
 So, if we give another element in our HTML file the class primary
 content, we should also see the red border applied to that element.
 Let's give the next div on around line 27 the same primary content
 class:
 
-\<div *class*=\"primary-content\"\>
+```html
+<div class="primary-content">
+  
+<h3>Location and Distances</h3>
+```
 
-\<h3\>Location and Distances\</h3\>
-
-When we save our *index.html* file and refresh the page, we see that
+When we save our `index.html` file and refresh the page, we see that
 both divs now have that red border applied:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image67.jpg){width="4.903114610673666in"
-height="3.5692311898512687in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image67.jpg)
 
 Like with IDs, naming the class is up to us and we should also give them
 meaningful names that explain their purpose. So, let\'s go back to our
@@ -378,9 +375,11 @@ But first, instead of giving the div on line 27 the class primary
 content in the *index.html* file, let\'s rename it to secondary content
 because that\'s what it actually contains:
 
-\<div class=\"secondary-content\"\>
+```html
+<div class="secondary-content">
+```  
 
-Next, let\'s scroll up and give our header element the class main
+Next, let's scroll up and give our header element the class main
 header. We could just continue using the header type selector we wrote
 earlier to target the *header* element, but let\'s instead give it the
 class name *main-header,* because again we\'ll want to give it a
@@ -388,7 +387,9 @@ meaningful class name. We know that this will always be the main header
 on our page or website, as this main header class communicates that very
 clearly.
 
-\<header class=\"main-header\"\>
+```html
+<header class="main-header">
+```  
 
 So, let\'s save our *index.html* file and go back to our style sheet,
 and target these new classes. First, we\'re going to change the header
@@ -396,17 +397,16 @@ type selector to match that main header class. So, scroll up to where we
 declared our header, it should be on around line 6. Then replace the
 word *header* with a dot and *main-header*:
 
+```csss
 .main-header {
-
 background-color: orange;
-
 }
+```
 
 So, if we save our style sheet and take a look at it once again in the
 browser preview, we can see that nothing really changes:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image68.jpg){width="5.763888888888889in"
-height="1.1611111111111112in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image68.jpg)
 
 The header styles are still the same. We\'re just targeting with a class
 selector instead of using a type selector. Next, let's remove that red
@@ -417,16 +417,15 @@ border, we're going to center align all of the text.
 
 To do that, we can write text-align and set the value to center:
 
+```css
 .primary-content {
-
 text-align: center;
-
 }
+```
 
 So, now when we save our CSS file and take a look at it in the browser:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image69.jpg){width="5.763888888888889in"
-height="2.4458333333333333in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image69.jpg)
 
 We can see how that center aligns our text nicely inside that primary
 content div. Let\'s also target that secondary content class we wrote
@@ -436,11 +435,11 @@ the secondary content div by writing a dot followed by
 secondary-content. Then we\'re going to add a border top style
 declaration. We're going to make a smooth gray color:
 
+```css
 .secondary-content {
-
 border-top: 2px solid lightgray;
-
 }
+```
 
 Now even though we don\'t know exactly what this declaration does, just
 yet, you can probably tell what\'s about to happen here. Many CSS
@@ -449,10 +448,9 @@ this class selector is going to give the secondary content div a solid
 lightgray top border, then you\'re on the right track! So, let\'s take a
 look. We\'ll save our *style.css* file and when we refresh the browser:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image70.jpg){width="4.3711537620297465in"
-height="2.1776771653543308in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image70.jpg)
 
-That\'s exactly what happens. There\'s that light gray solid border
+That's exactly what happens. There's that light gray solid border
 applied to our secondary content element.
 
 ###  Reusing classes 
@@ -480,11 +478,11 @@ multiple places. Instead of repeating the styles, we can create a
 separate class, let's call it *t-border*, and simply add the styling
 rule in this class:
 
+```csss
 .t-border {
-
 border-top: 2px solid lightgray;
-
 }
+```
 
 Then all we have to do is save our stylesheet and then in our HTML file,
 we can add the t-border class to the primary and content div as well as
@@ -492,24 +490,29 @@ the footer. To add the class to the primary content div, we simply add a
 space right after the primary-content value and then we'll write
 *t-border* -- make sure there is a space between the classes like this:
 
-\<div class=\"primary-content t-border\"\>
+```css
+<div class="primary-content t-border">
+```
 
 We then repeat this process for the secondary content div:
 
-\<div class=\"secondary-content t-border\"\>
+```css
+<div class="secondary-content t-border">
+```
 
 Finally, we also need to add the class to the footer element, but you
 will notice that the footer does not have a class attribute, so we need
 to first add the class attribute and then make the value *t-border*:
 
-\<footer class=\"t-border\" id=\"main-footer\"\>
+```html
+<footer class="t-border" id="main-footer">
+```  
 
 Now that we've added the classes to the elements, let's save our
 *index.html* file and then switch over to the browser and then hit the
 refresh button:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image71.jpg){width="4.585472440944882in"
-height="3.875in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image71.jpg)
 
 We can see that the border style has been applied to all three elements.
 Adding multiple classes to elements helps make our CSS more
@@ -536,19 +539,17 @@ the span element in our stylesheet, so below the main header rule we'll
 write header followed by a space and then the span element selector.
 We'll make the color white and give it a larger font size:
 
+```css
 header span {
-
 color: white;
-
 font-size: 26px;
-
 }
+```
 
 Now, let's save our stylesheet and preview the changes in the browser by
 clicking refresh:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image72.jpg){width="4.937403762029747in"
-height="1.4193547681539807in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image72.jpg)
 
 You will notice that the styles we added to the descendent selector are
 applied to the span element inside the header. The great thing about
@@ -559,13 +560,12 @@ descendent selector, we can also use the class name on the header
 element, which is *main-header*. So, once we swap the header for the
 class name, this is how the style rule should look like:
 
+```css
 .main-header span {
-
 color: white;
-
 font-size: 26px;
-
 }
+```
 
 When you save and refresh the web page, you will notice that this works
 exactly the same way as before. However, this descendent selector is a
@@ -579,18 +579,17 @@ stylesheet and beneath the descendent selector that we have already
 created, we'll target the ul element followed by a space, and then the
 list item element selector:
 
+```css
 ul li {
-
 background-color: tomato;
-
 }
+```
 
 The above descendent selector targets every unordered list element on
 our page and gives it a background color of tomato. Save your changes in
 the stylesheet then head over to the browser and refresh:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image73.jpg){width="4.84161854768154in"
-height="2.5923075240594926in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image73.jpg)
 
 We have targeted all the list items on our page and the background for
 each item has been set to tomato. Descendent selectors behave in the
@@ -606,19 +605,20 @@ but for most situations, we're better off with using classes. With that,
 let's add a class to the span element inside the header in our
 *index.html* file called *title*:
 
-\<span class=\"title\"\>Visit the ancient and beautiful city of
-Granada\</span\>
+```html
+<span class="title">Visit the ancient and beautiful city of
+Granada</span>
+```
 
 Then inside our stylesheet, we'll replace the descendent selector with
 our class:
 
+```css
 .title {
-
 color: white;
-
 font-size: 26px;
-
 }
+```
 
 This works exactly the same way as before, only this time we are using a
 class to target the span instead of a descendent selector.
@@ -636,8 +636,7 @@ example, we can add styling to a button only when a user hovers over it
 with the mouse cursor. The following screenshot shows a list of all the
 standard pseudo-classes:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image74.jpg){width="4.310483377077865in"
-height="4.977830271216098in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image74.jpg)
 
 As you can see, there are quite a few pseudo-classes that we can apply
 to elements. We're not going to cover every single pseudo-class, but we
@@ -657,19 +656,18 @@ ahead and style the link pseudo class on the anchor element. After the
 last style rule in the stylesheet, I will add the styling for the
 un-visited pseudo class:
 
+```css
 a:link {
-
 color: orange;
-
 }
+```
 
 In the above style rule, we are giving all the un-visited links on our
 web page the color orange. So, if we save the style sheet and go back to
 the browser view and refresh, we can see that all of our links now have
 the color orange instead of red:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image75.jpg){width="4.650474628171478in"
-height="1.3480774278215224in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image75.jpg)
 
 It's important to note that the link pseudo-class only works on anchor
 elements that have a *href* attribute, so if an anchor element does not
@@ -678,27 +676,25 @@ notice that when we click on any of the links and go back to the page,
 you will see that the color of the clicked link takes on the default
 browser style of purple:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image76.jpg){width="4.6211537620297465in"
-height="1.0762281277340333in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image76.jpg)
 
 We can also change this color to anything that we want using the visited
 pseudo class of the anchor element. We will add the visited pseudo class
 beneath the link pseudo class and we'll set the visited link color to
 lightblue:
 
+```css
 a:visited {
-
 color: lightblue;
-
 }
+```
 
 We apply the pseudo class in pretty much the same way as before, only
 this time we are adding the pseudo class visited and applying the color
 lightblue for visited links. Now when you click on any of the links, it
 immediately takes on the style that we specified:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image77.jpg){width="4.750866141732283in"
-height="1.0692311898512685in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image77.jpg)
 
 ### Hover pseudo class 
 
@@ -713,21 +709,19 @@ will add the hover pseudo class right beneath the visited pseudo class
 style rule. We add the pseudo class in the same way that we did for the
 link and visited pseudo classes and only change the pseudo class name:
 
+```css
 a:hover {
-
 background-color: forestgreen;
-
 color: white;
-
 }
+```
 
 So, whenever the user hovers over any link on our web page, it will give
 the link element a background color of forest green and a color of
 white. To see how this looks, save the stylesheet then switch to the
 browser, refresh the page and make sure to hover over a link:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image78.jpg){width="3.803846237970254in"
-height="1.8472353455818022in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image78.jpg)
 
 As you can see from the image above, whenever we hover over a link
 element, it will apply a background color of forest green and a color of
@@ -735,28 +729,23 @@ white for the text. What's interesting about the hover pseudo class is
 that you can apply it to any element that you wish. To see how this
 works, we can change the anchor element tag to a *p* tag like so:
 
+```css
 p:hover {
-
 background-color: forestgreen;
-
 color: white;
-
 }
+```
 
 So now if we save the changes in our stylesheet and switch back to the
 browser and do exactly what we did before with the anchor element:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image79.jpg){width="4.8711537620297465in"
-height="1.2189621609798775in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image79.jpg)
 
 The hover pseudo class is now being applied to all the paragraph
 elements on hover. The hover pseudo class is really useful when you want
 to apply a particular styling to an element when they hover their mouse
 over it. Make sure to change the element back to the *a* tag again
 before moving on.
-
-**\
-**
 
 ### CSS comments 
 
@@ -774,31 +763,27 @@ come back to our code some time in the future. We can add comments
 anywhere in our CSS stylesheet. Let's add some comments to the pseudo
 classes that we added to the anchor element:
 
-/\*Styling to add pseudo class for unvisited links\*/
+Styling to add pseudo class for unvisited links
 
+```css
 a:link {
-
 color: orange;
-
 }
+```
 
-/\*Changes the visited links color to lightblue\*/
-
+Changes the visited links color to lightblue
+```css
 a:visited {
-
 color: lightblue;
-
 }
-
-/\*Hover styles for links\*/
-
+```
+Hover styles for links
+```css
 a:hover {
-
 background-color: forestgreen;
-
 color: white;
-
 }
+```
 
 It's worth keeping in mind that if you leave out a forward slash, all of
 the following styles below will be commented out until you add another
