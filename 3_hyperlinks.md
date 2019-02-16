@@ -177,7 +177,9 @@ with the value of blank. So, if we wanted to open the about page of
 Facebook in a new window or tab, we would just add the target attribute
 with a value of underscore followed by the word blank:
 
-`<a href =”http://www.facebook.com/facebook” target=”_blank>About Us</a>`
+```html
+<a href =”http://www.facebook.com/facebook” target=”_blank>About Us</a>
+```
 
 The `target` attribute determines exactly where the link will be
 displayed, and the `_blank` value specifies a new window.
