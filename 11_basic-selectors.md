@@ -61,7 +61,7 @@ because it overrides all other selectors, as we\'ll soon find out. So,
 to create a universal selector, we use an asterisk as our selector,
 followed by the declaration block:
 
-```css* {
+```* {
 
 }
 ``
@@ -73,7 +73,7 @@ also going to set the padding of each element in our web page to 0, and
 finally we'll add a color property and set that to red to really make
 things stand out. Here's how our CSS code should look like:
 
-```css
+```
 {
 margin: 0;
 padding: 0;
