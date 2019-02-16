@@ -160,7 +160,7 @@ A div tag is a block level element, and this means that it will take up all avai
 	</body>
 </html>
 ```
-![](./images/media/image41.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image41.jpg)
 
 Here I have added a div, nested inside this is a paragraph, which
 contains some text and a span element. You will notice that the
