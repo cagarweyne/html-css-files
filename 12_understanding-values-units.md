@@ -540,7 +540,7 @@ color declaration inside the *h1* style rule, we will include a
 
 ```css
 h1 {
-font-size: 5.625rem; /\* 90px / 16px \*/
+font-size: 5.625rem; /* 90px / 16px */
 color: rgba(255, 255, 255, .5);
 text-transform: uppercase;
 }
@@ -562,7 +562,7 @@ toward our CSS file and scroll down to where our link styles are, and
 try to give our links rule a *text-decoration* property. Write
 *text-decoration*, and then set the value to the keyword *none*.
 
-```csss
+```css
 a:link {
 color: rgb(255, 169, 73);
 text-decoration: none;
@@ -604,7 +604,7 @@ the value to *normal*:
 ```css
 h1 {
 
-font-size: 5.625rem; /\* 90px / 16px \*/
+font-size: 5.625rem; /* 90px / 16px */
 color: rgba(255, 255, 255, .5);
 text-transform: uppercase;
 font-weight: normal;
@@ -661,7 +661,7 @@ body rule, right under the font size declaration. We will type
 ```css
 body {
 color: #878787; margin: 0;
-font-size: 1em; /\* 16px \*/
+font-size: 1em; /* 16px */
 font-family: sans-serif;
 }
 ```
@@ -696,11 +696,11 @@ Let's create a font stack declaration in our stylesheet. Make sure that
 you are in the style rule for the body element and add the following
 font stack as the value for the font family property:
 
-``css
+```css
 body {
 color: \#878787; margin: 0;
 font-size: 1em; /* 16px */
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 ```
 
@@ -762,9 +762,9 @@ declaration and set the value to 1.5:
 body {
 color: \#878787;
 margin: 0;
-font-size: 1em; /\* 16px \*/
+font-size: 1em; /* 16px */
 line-height: 1.5;
-font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 ```
 
@@ -802,7 +802,7 @@ height of *1.3*:
 
 ```css
 h1 {
-font-size: 5.625rem; /\* 90px/16px \*/
+font-size: 5.625rem; /* 90px/16px */
 color: rgba(255, 255, 255, 1);
 text-transform: uppercase;
 font-weight: normal;
