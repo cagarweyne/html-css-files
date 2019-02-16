@@ -529,19 +529,18 @@ color styles. Go ahead and specify the path to that CSS file by writing
 *css/import-styles.css*. Here's how the import statement looks like
 inside the style tags:
 
-\<**style**\>
-
-**\@import \"css/import-styles.css\"; **
-
-\</**style**\>
+```html
+<style>
+@import "css/import-styles.css"; 
+</style>
+```
 
 There is quite a bit of styling already inside this file, but don't
 worry about these for now, we will go over them in detail later on.
 Let's save our index.html file and then switch to the browser and
 refresh:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image53.jpg){width="4.379032152230971in"
-height="2.6886187664041996in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image53.jpg)
 
 We now see how the page has imported the styles from *import-styles.css*
 and the styles have been applied to our landing page.
@@ -563,15 +562,13 @@ the *css/* part and we\'ll just keep the file name inside the quotation
 marks. So, you should have the following at the very top in your
 style.css file:
 
-**\@import \"import-styles.css\"; **
+```html
+import "import-styles.css"; 
 
 body {
-
 text-align: center;
-
 }
-
-...
+```
 
 When we save our style sheet and refresh the browser preview, you will
 notice that nothing has changed. This is because we\'re still importing
@@ -616,8 +613,7 @@ One of best resources for CSS is the: [Mozilla Developer Network
 Doc](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) link:
 <https://goo.gl/n0DQ4R>, or, MDN Docs:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image54.jpg){width="4.5in"
-height="2.9130719597550305in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image54.jpg)
 
 It has an extensive list of all the standard CSS properties, selectors,
 and CSS concepts in alphabetical order, and it gives us detailed
@@ -630,8 +626,7 @@ MDN Doc is that there\'s even a browser compatibility chart at the
 bottom of the page, which shows what browsers support each of the
 properties and which ones don't:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image55.jpg){width="5.114194006999125in"
-height="2.1491940069991253in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image55.jpg)
 
 So, it\'s a handy reference you should keep close by when building
 websites with CSS. If you\'re looking for really specific information
