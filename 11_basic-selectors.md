@@ -61,7 +61,7 @@ because it overrides all other selectors, as we\'ll soon find out. So,
 to create a universal selector, we use an asterisk as our selector,
 followed by the declaration block:
 
-```
+```css
 * {
 
 }
@@ -175,7 +175,7 @@ For this, I will use a hexadecimal as the value for the color property:
 ```css
 h3 {
 font-size: 20px;
-color: \#48525c;
+color: #48525c;
 }
 ```
 
@@ -191,7 +191,7 @@ hexadecimal value and add a margin with a value of 0:
 
 ```css
 body {
-color: \#878787;
+color: #878787;
 margin: 0;
 }
 ```
@@ -266,7 +266,7 @@ and refresh the screen:
 
 As you can see from the screenshot, there\'s a red border around the
 primary content div element on the page. IDs are unique to the page so
-it\'s important to remember that an element can only have one ID and a
+it's important to remember that an element can only have one ID and a
 page can only have one element with the same ID name.
 
 Also, because our div already has an ID applied, we can no longer add
