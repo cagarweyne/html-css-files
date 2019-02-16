@@ -12,6 +12,11 @@
 	 "8_Special Chars, Spans & Div": "8_specialChars-divs-spans.md",
 	 "9_HTML5 Web Page Structure": "9_html5-web-page-structure.md"
       }
-    }
+    },
+    "CSS": {
+    	"lessons": {
+	 "10_Introduction to CSS": "10_intro-to-css.md"
+      }
+    }	  
   }
 }
