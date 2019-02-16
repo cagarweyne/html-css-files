@@ -1,5 +1,10 @@
 {
   "courses": {
+    "Tools": {
+	"lessons": {
+	 "0_Basic Tools": "0_Tools.md"
+	}    
+    },	  
     "HTML": {
        "lessons": {
 	 "1_Introduction": "1_Intro-to-html.md",
