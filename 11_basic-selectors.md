@@ -1,7 +1,4 @@
-Basic selectors 
-----------------
-
-### Intro to selectors 
+# Intro to selectors 
 
 In the previous section, we dived straight into CSS without actually
 discussing the way in which the CSS syntax works in detail, as we wanted
@@ -17,8 +14,7 @@ CSS rules or rule sets, tell browsers how to render HTML elements. A CSS
 rule is made up of two main parts, as you've already seen: the selector
 followed by the declaration block:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image56.jpg){width="4.887096456692913in"
-height="2.0702449693788276in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image56.jpg)
 
 The selector is the part of the CSS rule that targets HTML elements.
 It\'s what actually lets us select the content we want to style. Now,
@@ -65,9 +61,10 @@ because it overrides all other selectors, as we\'ll soon find out. So,
 to create a universal selector, we use an asterisk as our selector,
 followed by the declaration block:
 
-\* {
+```css* {
 
 }
+``
 
 Inside these curly braces is where we\'ll write the styles we\'d like to
 apply universally to our page. Let\'s write our first declaration.
@@ -76,15 +73,13 @@ also going to set the padding of each element in our web page to 0, and
 finally we'll add a color property and set that to red to really make
 things stand out. Here's how our CSS code should look like:
 
-**\*** {
-
+```css
+{
 margin: 0;
-
 padding: 0;
-
 color: red;
-
 }
+```
 
 This universal selector we just wrote will apply these styles to every
 element in our project. So, let\'s take a look at the results. First
