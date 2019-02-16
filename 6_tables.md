@@ -64,7 +64,7 @@ you have added so far and view it in the browser, you will see that we
 have a column, which is the heading for the position of the programming
 language:
 
-![](./images/media/image21.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image21.jpg)
 
 We can create more columns by listing multiple *\<**td**\>* elements one
 after the other inside the first row. So, we can add two more columns
@@ -84,7 +84,7 @@ other will contain the year when the language first came out:
 If we now preview our table so far, we will see that we have added two
 more columns:
 
-![](./images/media/image22.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image22.jpg)
 
 You will notice that our table does not have any borders and the text
 for each column is not highlighted. As with anything in HTML, you can
@@ -108,7 +108,7 @@ replace our *\<**td**\>* cells with *\<**th**\>* tags:
 
 Then save our changes and switch to the browser to see the result:
 
-![](./images/media/image23.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image23.jpg)
 
 We now have three column headings that have been emboldened, which will
 act as our headings for the table. Now that we have added all the
@@ -152,7 +152,7 @@ programming languages. Once you've added the rows and the table cells,
 save and preview the table in the browser. Depending on your browser, it
 should look something like this:
 
-![](./images/media/image24.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image24.jpg)
 
 ### Structuring Tables 
 
@@ -266,7 +266,7 @@ Add this piece right after the closing table head tag and just before
 the opening table body tag, then save the changes and view the results
 in the browser:
 
-![](./images/media/image25.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image25.jpg)
 
 ### Table Caption Element 
 
@@ -285,4 +285,4 @@ caption tag `<caption>` just after the opening table tag:
 This will add a nice table title at the top of the table, so save and
 switch to the browser and refresh the page to see the results:
 
-![](./images/media/image26.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image26.jpg)
