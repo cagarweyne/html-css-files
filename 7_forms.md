@@ -100,7 +100,7 @@ with user and an underscore so that it\'s easier to tell the difference
 between the name and the ID. Let's save changes and then switch to the
 browser, refresh and see the result:
 
-![](./images/media/image27.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image27.jpg)
 
 Let's add a few more text input fields, one for the email address and
 one for the password:
@@ -121,7 +121,7 @@ comprehensive list of all these values, visit this link
 <https://goo.gl/3sQgYC>. Now we can save, switch to the browser refresh
 and view the results so far:
 
-![](./images/media/image28.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image28.jpg)
 
 So, here we have three input elements. The first one is for our name,
 the second one is for an email address, and the last one is a password.
@@ -157,7 +157,7 @@ for a textarea:
 If we save and switch back to the browser and refresh, you can see that
 the text area allows us to type in multiple lines:
 
-![](./images/media/image29.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image29.jpg)
 
 On the bottom right corner of the text area element is a little
 triangle. What this means is that we can resize the text area if we
@@ -192,7 +192,7 @@ button as the type, we need to also specify a value attribute and the
 value for this attribute will be the text that is displayed on the
 button. Let's save this, switch to the browser and refresh:
 
-![](./images/media/image30.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image30.jpg)
 
 The second way that we can create a button is using the button element `<button>`. 
 Unlike the input element, the button element has a
@@ -210,7 +210,7 @@ implies, the default behavior of the *submit* type is to submit the form
 and send all the data over to the server. Let's save this and switch to
 the browser and refresh:
 
-![](./images/media/image31.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image31.jpg)
 
 You will notice that there is no change in the output on the web page.
 You can use either the input element or the button element to create a
@@ -240,7 +240,7 @@ which happens to be called name. This is why we added IDs to our form
 controls so that we can add labels and reference each field with an id.
 Save your changes then switch to your browser and refresh:
 
-![](./images/media/image32.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image32.jpg)
 
 As you can see, this has now added a label for the name field. The user
 can distinguish what needs to be entered in this field. Let's add a
@@ -307,7 +307,7 @@ If you had more fields, you could use more `fieldset` to group them
 together. If we save and switch over to the browser, then refresh, we
 can see these logical groupings applied visually:
 
-![](./images/media/image34.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image34.jpg)
 
 The default user agent or browser CSS applies a border to each
 `<fieldset>` to show that they are grouped together in a
@@ -349,7 +349,7 @@ first `fieldset` basic info and the second one profile. Let's save
 our changes and then switch to the browser and refresh to see the
 results:
 
-![](./images/media/image35.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image35.jpg)
 
 As you can see once again, the default browser styling is being applied
 to the legend element. You can easily change this using CSS. If you
@@ -403,12 +403,12 @@ these predefined options, we need to specify what the value should be
 when selected by the user and the form is submitted. Let's save what we
 have added, then switch over to the browser:
 
-![](./images/media/image36.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image36.jpg)
 
 As you can see, we have a nice select menu along with its label. If you
 click on the drop down, you will see that all our job titles are listed:
 
-![](./images/media/image37.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image37.jpg)
 
 We can further organize our list of job titles, just like we organized
 the form controls using ***fieldset***, by using the *\<**optgroup**\>*
@@ -440,7 +440,7 @@ role of this attribute is to display a label inside the dropdown menu
 for each respective group. Save everything, and the switch to the
 browser and refresh:
 
-![](./images/media/image38.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image38.jpg)
 
 You can see that our options are organized neatly into two groups:
 Development and Business. The actual labels themselves are not
@@ -476,7 +476,7 @@ correspond to user choices, whether they agree or disagree. If we now
 save this and switch over to the browser and refresh, we can see our two
 radio buttons:
 
-![](./images/media/image39.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image39.jpg)
 
 In the HTML markup, the name value is the same for both radio buttons.
 This is to prevent the user from selecting both radio buttons. At the
@@ -554,7 +554,7 @@ If we save the code and switch to the browser and refresh, we can see
 that we now have the option for the user to select one or more interests
 via checkboxes:
 
-![](./images/media/image40.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image40.jpg)
 
 Forms play an important role in gathering data from users, and as we've
 seen, HTML provides us with all the tools that we need to replicate the
