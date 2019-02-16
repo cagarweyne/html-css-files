@@ -12,7 +12,7 @@ positioning or styles, these have to be added via CSS.
 Let's take a visual look at how we can use the HTML5 elements to create
 structured web page documents with semantic value:
 
-![](./images/media/image42.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image42.jpg)
 
 ### Header 
 
@@ -131,4 +131,4 @@ used for longer quotes that take up an entire paragraph:
 Browsers usually indent the content of the `<blockquote>` element.
 Let's save and switch to the browser then refresh:
 
-![](./images/media/image43.jpg)
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image43.jpg)
