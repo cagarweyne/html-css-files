@@ -763,22 +763,18 @@ come back to our code some time in the future. We can add comments
 anywhere in our CSS stylesheet. Let's add some comments to the pseudo
 classes that we added to the anchor element:
 
-Styling to add pseudo class for unvisited links
-
 ```css
+/*Styling to add pseudo class for unvisited links*/
 a:link {
 color: orange;
 }
-```
 
 /*Changes the visited links color to lightblue*/
-```css
 a:visited {
 color: lightblue;
 }
-```
+
 /*Hover styles for links*/
-```css
 a:hover {
 background-color: forestgreen;
 color: white;
