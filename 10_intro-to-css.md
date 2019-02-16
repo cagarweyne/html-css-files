@@ -203,8 +203,6 @@ closing style tag like so:
 <style\>
 
 </style>
-```
-```html
 <head>
 
 This time we\'re going to style the paragraph by making the font size
