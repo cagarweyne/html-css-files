@@ -150,7 +150,7 @@ with the body element, and that is to add a style attribute and make the
 color of the text white:
 
 ```html 
-\<h1 style="color: white;">Granada, Spain\</h1>
+<h1 style="color: white;">Granada, Spain</h1>
 ```
 
 When we save our index.html file, and refresh the browser preview, we
@@ -199,9 +199,7 @@ closing style tag like so:
 
 ```html
 <head>
-
-<title>Granada\</title>
-
+<title>Granada</title>
 <style\>
 
 </style>
@@ -245,9 +243,7 @@ bold, and a semicolon:
 <style>
 p {
 font-size: 20px;
-
 font-weight: bold;
-
 }
 </style>
 ```
@@ -438,17 +434,12 @@ color of white:
 
 ```html
 body {
-
 text-align: center;
-
 }
 
 h1 {
-
 font-size: 72px;
-
 color: white;
-
 }
 ```
 
