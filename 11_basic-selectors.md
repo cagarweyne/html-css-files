@@ -478,7 +478,7 @@ multiple places. Instead of repeating the styles, we can create a
 separate class, let's call it *t-border*, and simply add the styling
 rule in this class:
 
-```csss
+```css
 .t-border {
 border-top: 2px solid lightgray;
 }
