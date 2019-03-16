@@ -21,7 +21,8 @@ global style rule that will add a red outline to all the elements on the
 page. To do this, simply add the following style rule to the top of the
 stylesheet:
 
-``` css* {
+``` css
+* {
 outline: 2px solid red;
 }
 ```
