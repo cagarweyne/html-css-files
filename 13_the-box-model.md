@@ -57,7 +57,7 @@ borders, and padding interact with one another to form a box since it's
 important to understand. The box model is designed with four distinct
 parts.
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image101.gif){width="2.75in" height="2.75in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image101.gif)
 
 The core component and innermost area of the box is the content area.
 This is the area in which the actual content, such as image or text of
@@ -78,29 +78,25 @@ Google Chrome dev tool provides a really clear view of the box model for
 each element on the page. If you click on **View** \> **Developer** \>
 **Developer Tools**:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image102.jpg){width="4.285325896762904in"
-height="2.375in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image102.jpg)
 
 It will display the chrome developer tool panel at the bottom of the
 page:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image103.jpg){width="5.763888888888889in"
-height="1.476388888888889in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image103.jpg)
 
 Once you have the dev tools panel open, in the elements tab on the left,
 open up the header element and click on the *h1* element. This will be
 the element selected in the chrome dev tool and you will see the *h1*
 highlighted on the page:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image104.jpg){width="5.763888888888889in"
-height="3.252083333333333in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image104.jpg)
 
 Once the *h1* element is selected, you can increase the width of the
 styles tab on the right and scroll all the way down until you see the
 box model for the *h1*:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image105.jpg){width="4.755818022747157in"
-height="3.25in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image105.jpg)
 
 As you can see from the above screenshot, the *h1* element's box model
 can be seen clearly. We have a default margin applied to the top and
@@ -116,18 +112,16 @@ that would contain the *h2* heading and a paragraph. Let's open the
 *index.html* and add a class to the div that is on around line number 19
 in the file. We'll call this class: *buildings*.
 
-\<div class=\"buildings\"\>
+```html
+<div class="buildings">
+<h2>Check out all the buildings</h2> 
+<p> Granada's climate is friendly and dry, the air clean and healthy, with clear and cheerful skies. 
+  Strong winds, fog and snow are rare. 
+</p>
+</div>
+```
 
-\<!\-- \<h2\>Check out all the buildings\</h2\> \<p\> Granada\'s climate
-is friendly and dry,
-
-the air clean and healthy, with clear and cheerful skies.
-
-Strong winds, fog and snow are rare. \</p\> \--\>
-
-\</div\>
-
-Currently, the *h2* and the paragraph text inside of our *buildings* div
+Currently, the `h2` and the paragraph text inside of our `buildings` div
 are commented out. Make sure to save the *index.html file*, then open up
 the stylesheet and scroll down to the end after the layout styles
 section. Then we will target the class buildings.
