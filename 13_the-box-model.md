@@ -11,8 +11,7 @@ box is made of particular dimensions and takes up a particular measure
 of space. The space the box occupies depends on the content in it, as
 well as the margins and the padding borders around the content:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image99.png){width="3.7933333333333334in"
-height="2.486666666666667in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image99.png)
 
 So, the box model is what dictates the amount of space each element has
 on the page. Now, let's dive somewhat deeper into this idea by revising
@@ -22,17 +21,15 @@ global style rule that will add a red outline to all the elements on the
 page. To do this, simply add the following style rule to the top of the
 stylesheet:
 
-\* {
-
+``` css* {
 outline: 2px solid red;
-
 }
+```
 
 This will add an outline to all the elements on the page and it will let
 us easily visualize each of the elements on the page as a box:
 
-![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image100.jpg){width="4.912073490813648in"
-height="3.5in"}
+![](https://raw.githubusercontent.com/cagarweyne/html-css-files/master/images/media/image100.jpg)
 
 Each element is designed with a box or rectangle. Now, to effectively
 understand the concept of the CSS box model, it is important that we
