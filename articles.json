@@ -1,1 +1,25 @@
-['one', 'two', 'three']
+{
+  "articles": {
+    "1": {
+	"name": "Dynamic Form with Formik"     
+    },
+    "2": {
+      "name": "JavaScript Part 1"
+    },
+    "3": {
+      "name": "JavaScript Part 2"
+    },
+    "4": {
+      "name": "JavaScript Part 3"
+    },
+    "5": {
+      "name": "JavaScript Part 4"
+    },
+    "6": {
+      "name": "JavaScript Part 5"
+    },
+    "7": {
+      "name": "JavaScript Part 6"
+    }	  
+  }
+}
