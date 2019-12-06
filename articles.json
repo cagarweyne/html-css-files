@@ -1,7 +1,8 @@
 {
   "articles": {
     "1": {
-	"title": "Dynamic React Form with Formik"     
+	"title": "Dynamic React Form with Formik",
+	"slug": "dynamic-react-form-with-formik"    
     },
     "2": {
       "name": "JavaScript Part 1"
